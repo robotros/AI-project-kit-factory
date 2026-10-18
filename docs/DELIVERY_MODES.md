@@ -1,6 +1,6 @@
 # Dual delivery modes — required Factory behavior
 
-**Apply to every generated kit.** The content-generation decision (Light and Full) is separate from the delivery/installation decision below. Do not make a user choose between Light and Full when they asked for both.
+**Apply to every generated kit.** **Generation** always produces both Light and Full editions. **Installation** is where the user chooses which generated edition to install (Light, Full, or both when the destination supports it). Choosing one edition to install does not omit the other from the generated package. Do not treat an install choice as permission to skip generating an edition.
 
 ## Decision point
 
@@ -25,7 +25,7 @@ Allow the user to reply `1`, `2`, `both`, `package`, or `install`. If the user a
 ## Option 2 — setup of current AI tool
 
 1. Detect the currently used platform from real context, or ask briefly. Do not infer plan tier or permissions from tone or a generated model name.
-2. Explain which persistent feature actually matches the role(s): e.g. ChatGPT Projects, Claude Projects, Gemini Gems/Skills as supported, Grok Skills/Bots as supported; otherwise dedicated-chat fallback.
+2. Explain which persistent feature actually matches the role(s): e.g. ChatGPT Projects, Claude Projects, Gemini Skill (preferred) or Gem, Grok Project when the live grok.com account shows Projects, or a Grok Bot Skill; otherwise dedicated-chat fallback. Warn that Gemini Skills do not yet support some Gem functionality, including Deep Research and Canvas. Do not claim a standard Grok conversation can save a Skill unless that live interface and account type support it.
 3. Check whether enabled tools can **create/edit the specific objects in that account**. Distinguish reading documentation, generating files, and actual account write permission.
 4. Show the proposed changes, including edition and each role, request explicit authorization, and avoid creating duplicates. Execute and read back each authorized operation when possible.
 5. When direct editing is unavailable, present short, actionable instructions one project at a time. Name the instruction file to paste, the exact three or eight `.md` files to attach, and the kickoff/test prompts to run. Ask for non-sensitive confirmation or a redacted screenshot after each checkpoint.

@@ -1,6 +1,6 @@
 # Generated destination kit — output contract
 
-Every `/new-kit` produces an architecture and **both Light and Full editions** per logical role, unless the user chooses one. For delivery, the Factory offers **two modes** as detailed in [DELIVERY_MODES.md](DELIVERY_MODES.md): a shareable ZIP/GitHub-ready package or installation within the current AI tool. **Both** is allowed.
+Every `/new-kit` produces an architecture and **generates both Light and Full editions** per logical role. Generation and installation are different choices. **Generation** always includes both editions. **Installation** is where the user chooses which generated edition to install: Light, Full, or both when the destination supports it. Choosing one edition to install does not omit the other edition from the generated kit. For delivery, the Factory offers **two modes** as detailed in [DELIVERY_MODES.md](DELIVERY_MODES.md): a shareable ZIP/GitHub-ready package or installation within the current AI tool. **Both** is allowed.
 
 ## Required directory contract (generated kits only; none is an example kit)
 

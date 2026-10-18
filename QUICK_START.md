@@ -14,11 +14,11 @@ Visit **https://github.com/robotros/AI-project-kit-factory**. Copy the prompt in
 
 **Full:** paste `full/PROJECT_INSTRUCTIONS.txt` and upload the eight numbered `full/*.md` references (8 files).
 
-Platform paths differ: ChatGPT uses Projects; Claude uses Projects; Gemini uses Gems/Skills where supported; Grok uses Skills/Bots where supported or a dedicated-chat fallback. [Platform guide](docs/PLATFORM_GUIDE.md) documents caveats, and account availability must be checked.
+Platform paths differ: ChatGPT uses Projects; Claude uses Projects; Gemini prefers Skills where supported and otherwise uses a Gem, with a warning that Skills do not yet support some Gem tools including Deep Research and Canvas; Grok uses Projects when the live grok.com account shows them, or Grok Bot Skills, and must not be told that a standard chat can save a Skill unless that interface and account support it. [Platform guide](docs/PLATFORM_GUIDE.md) documents caveats, and account availability must be checked.
 
 ## Build your first kit
 
-> `/new-kit` Design an AI workflow for [goal]. Decide whether one or multiple projects makes sense. Generate both Light and Full with precise files, operating prompts, acceptance checks, and handoff contracts where applicable.
+> `/new-kit` Design an AI workflow for [goal]. Decide whether one or multiple projects makes sense. Generate both Light and Full with precise files, operating prompts, acceptance checks, and handoff contracts where applicable. Installation is a later choice of which generated edition to install.
 
 ## Choose how to deliver/install
 

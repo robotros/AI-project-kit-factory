@@ -1,21 +1,21 @@
 # Cross-platform installation and capability guide
 
-**Research snapshot: 2026-10-17; recheck before use.** Re-check official help immediately before directing a user through the UI. Plans, rollout, admin restrictions and mobile/web differences affect capabilities. A platform's “project”, “skill”, “Gem”, “bot”, and “chat” are not necessarily equivalent.
+**Research snapshot: 2026-10-18; recheck before use.** Re-check official help immediately before directing a user through the UI. Plans, rollout, admin restrictions and mobile/web differences affect capabilities. A platform's “project”, “skill”, “Gem”, “bot”, and “chat” are not necessarily equivalent.
 
 | Platform | Primary persistent target | Basic setup | More agentic option | Limits/caveats |
 |---|---|---|---|---|
 | ChatGPT | **Project** with project instructions and files | Create New project, choose Project settings for instructions, attach files | Authorized Work/computer use/connected tools, if available; custom GPT only when requested | Official Project limit currently Free 5 files, Go/Plus 25, Pro/Business/Edu/Enterprise 40. **Up to 10** files uploaded at once. Free upload-rate limits are separate. |
 | Claude | **Project** with project instructions and project knowledge | Projects → New Project → Set project instructions → add knowledge | Available tools/agent workflows where user has access and permission | Free users can create up to five projects; paid plans may have enhanced project knowledge. Do not invent upload quotas. |
-| Gemini | **Skill** where available; **Gem** fallback | Skills: Customize → Skills → Create with Gemini, or upload root `SKILL.md` plus references; Gems: open Gems → New Gem → instructions, knowledge | Gemini task/schedule capabilities may be available, but they are separate from skills | Skills rollout is staged. Google states Gems for personal accounts will transition to Skills starting Nov 2026. Skill file/root rules and plan/age constraints must be rechecked. |
-| Grok | **Skill** for reusable methods; **Bot** on eligible accounts for action-oriented roles | Ask Grok to create/save a custom Skill through conversation; for Bot use currently available Bot interface | Grok Bot has dedicated computer and can coordinate bots when authorized | Do not label a normal Grok chat an installed Project. Confirm actual availability and persistent context. |
+| Gemini | **Skill** where available; **Gem** fallback | Skills: Customize → Skills → Create with Gemini, or upload root `SKILL.md` plus references; Gems: open Gems → New Gem → instructions, knowledge | Gemini task/schedule capabilities may be available, but they are separate from skills | Prefer Skill when the account has Skills, and warn first. Gemini Apps Help says Skills do not yet work with some Gem functionality, including Canvas and Deep Research. For now, most default Gem tools do not work with Skills, including Create video, Create music, Canvas, Deep Research, and Guided Learning. If the role needs one of those tools, keep a Gem until Skills support it. Skills rollout is staged. Google states personal-account Gems transition to Skills starting November 2026. Recheck file rules, plan, and age limits. |
+| Grok | **Project** on grok.com when that account shows Projects; **Grok Bot Skill** for reusable methods; **Bot** for action-oriented roles | Projects: use Projects only after the signed-in grok.com account shows them. Bot Skill: inside Grok Bot, ask that Bot to save the working process as a skill. Do not tell the user to save a Skill from a standard Grok conversation unless that live interface and account type show the control | Grok Bot has a dedicated computer, reusable Skills shared across the account's Bots, and can coordinate bots when authorized | A normal Grok chat is not an installed Project and is not proof a Skill was saved. Confirm the surface (grok.com vs Grok Bot) and account before choosing a destination. |
 
 ## Installation decision tree
 
 1. **Identify** provider, surface (web/mobile/app), plan, personal vs managed workspace, and role(s) needed.
 2. **Inspect present capabilities.** In the running AI, identify available tool actions. Do not confuse the ability to draft files with the ability to install them.
-3. **Choose correct artifact:** ChatGPT Project / Claude Project / Gemini Skill-or-Gem / Grok Skill-or-Bot / dedicated chat fallback.
+3. **Choose correct artifact:** ChatGPT Project / Claude Project / Gemini Skill-or-Gem / Grok Project (only if the live grok.com account shows Projects) / Grok Bot Skill / dedicated chat fallback. Do not claim a standard Grok conversation can save a Skill unless the live interface and account type support it.
 4. **Check persistence:** Does the destination preserve instructions and reference knowledge across new chats? If not, print a “paste on each new chat” warning.
-5. **Select edition:** Light when platform budget/attachment limits dictate; Full when supported and needed. If a platform does not support 8 reference files, combine logically without losing section anchors and document the deviation; do not claim the 8-file upload occurred.
+5. **Choose which generated edition to install:** Light when platform budget/attachment limits dictate; Full when supported and needed; both only when the destination can hold both. This install choice does not change generation, which always includes both editions. If a platform does not support 8 reference files, combine logically without losing section anchors and document the deviation; do not claim the 8-file upload occurred.
 6. **Action gate:** request specific approval before creating/updating/sharing/deleting projects, skill, Gem or Bot, or accessing sensitive material. Never claim to have used a tool that is not visible.
 7. **Install:** create, fill instruction field, add the knowledge. Inspect the created object using actual tool output/UI when possible. If no tool, guide user, ask for confirmation or redacted evidence.
 8. **Test in fresh context:** evaluate one standard case, one conflicting request, and one unavailable-information case, plus all handoffs.
@@ -37,7 +37,11 @@
 - Claude project overview: https://support.claude.com/en/articles/9517075-what-are-projects
 - Gemini Skills: https://support.google.com/gemini/answer/17094296?hl=en
 - Gemini Gems: https://support.google.com/gemini/answer/15146780?hl=en
-- Grok Skills: https://x.ai/news/grok-skills
+- Gemini Gems-to-Skills transition (Skills do not yet support Canvas, Deep Research, and most default Gem tools): https://support.google.com/gemini/answer/18560919?hl=en
+- Grok Bot Skills: https://docs.x.ai/grok-bot/skills-routines-and-automations
+- Grok Projects (FAQ: use grok.com; other hosts can omit Projects): https://docs.x.ai/grok/faq
+- Grok Business resources include conversations, projects, and skills: https://docs.x.ai/grok/management
+- Grok Skills announcement (do not treat conversation-save wording as proof for this account): https://x.ai/news/grok-skills
 - Grok Bot availability: https://x.ai/news/grok-bot-more-plans
 
 Provider product pages establish general features, **not** the specific user's plan or authorized access. Do not copy advice implying that a setup action succeeded without evidence.

@@ -10,7 +10,7 @@ Learn the goal and acceptable output, audience, target provider(s)/surface/plan,
 
 ## Standard deliverables
 
-Always create BOTH Light (exactly 3 `.md` uploads) and Full (exactly 8 `.md` uploads) for each role, plus one `PROJECT_INSTRUCTIONS.txt` field per edition (max 7,500 characters), install README and validation report. For multi-project designs include a workflow map and a structured handoff packet specifying input, output, owner, status, assumptions, source and approval. Add optimized operating prompts that a novice can copy and use.
+Always generate BOTH Light (exactly 3 `.md` uploads) and Full (exactly 8 `.md` uploads) for each role, plus one `PROJECT_INSTRUCTIONS.txt` field per edition (max 7,500 characters), install README and validation report. Generation always includes both editions. Installation is where the user chooses which generated edition to install; installing one does not omit the other from the kit. For multi-project designs include a workflow map and a structured handoff packet specifying input, output, owner, status, assumptions, source and approval. Add optimized operating prompts that a novice can copy and use.
 
 ## Universal model instructions structure
 

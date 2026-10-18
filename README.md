@@ -61,13 +61,13 @@ The generated kit README is modeled on this repository's structure. It links to 
 | Best for | File-constrained/Free plans | More detailed evaluation and governance |
 | Can generate both destination editions? | Yes | Yes |
 
-**Factory edition** controls how many knowledge files you upload to run the Factory. **Generated edition** controls how many files each new role uses. Both Factory editions generate both Light (instructions + 3 `.md` uploads) and Full (instructions + 8 `.md` uploads). These are internal design budgets, not claims about all vendors' account limits. The instruction target is <=7,500 characters.
+**Factory edition** controls how many knowledge files you upload to run the Factory. **Generated edition** controls how many files each new role uses. Both Factory editions **generate** both Light (instructions + 3 `.md` uploads) and Full (instructions + 8 `.md` uploads). **Installation** is where the user chooses which generated edition to install: Light, Full, or both when the destination supports it. Choosing one edition to install does not omit the other from the kit. These are internal design budgets, not claims about all vendors' account limits. The instruction target is <=7,500 characters.
 
 ## Supported workflows
 
 - **Single-project:** One persistent AI workspace/assistant with clear objective, source rules, reusable prompts and tests.
 - **Multi-project:** Specialists with independent instructions, approver checkpoints, explicit handoff packets and separated permissions. They do **not** automatically share memory or files.
-- **Platform-specific adaptation:** ChatGPT Projects, Claude Projects, Gemini Gems/Skills if available, Grok Skills/Bots if available, or honestly labeled chat fallback. Check actual product availability before installation.
+- **Platform-specific adaptation:** ChatGPT Projects, Claude Projects, Gemini Skills if available (warn that some Gem functionality, including Deep Research and Canvas, is not currently supported by Skills) or a Gem fallback, Grok Projects when the live grok.com account shows them, or Grok Bot Skills if available, or an honestly labeled chat fallback. Do not claim a standard Grok conversation can save a Skill unless that interface and account type support it. Check actual product availability before installation.
 - **AI-first setup:** Authorized direct configuration *only* where real authenticated write tools support it and user approval was given; otherwise practical UI walkthroughs one role at a time.
 - **Acceptance tests:** Artifact checks, simulated behavior checks and actual installed-object tests reported separately.
 
