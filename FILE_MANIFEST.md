@@ -1,6 +1,6 @@
 # AI Project Kit Factory — manifest
 
-**Release:** v3.1.0 · 2026-10-18 · AI-only · no scripts or sample kits
+**Release:** v3.1.1 · 2026-10-18 · AI-only · no scripts or sample kits
 
 ## Installable Factory editions
 
@@ -9,7 +9,7 @@
 | Light | `light/PROJECT_INSTRUCTIONS.txt` | `01_FACTORY_CORE.md`, `02_BLUEPRINT_AND_PROMPTS.md`, `03_SETUP_AND_QA.md` |
 | Full | `full/PROJECT_INSTRUCTIONS.txt` | `01_FACTORY_CHARTER.md`, `02_DISCOVERY_AND_ARCHITECTURE.md`, `03_PLATFORM_PROFILES.md`, `04_GENERATION_STANDARDS.md`, `05_PROMPT_ENGINEERING.md`, `06_SETUP_ORCHESTRATION.md`, `07_VALIDATION_AND_EVALS.md`, `08_GOVERNANCE_AND_UPDATES.md` |
 
-Paste `.txt` into the platform instructions field where possible; only numbered `.md` files are counted as knowledge uploads. Both Factory editions can generate both Light and Full destination editions.
+Paste `.txt` into the platform instructions field where possible; only numbered `.md` files are counted as knowledge uploads. Both Factory editions generate both Light and Full destination editions. The user chooses which generated edition to install; that choice does not omit the other edition.
 
 ## Distribution / onboarding files
 

@@ -14,5 +14,5 @@
 - Privacy/security boundaries: [TBD]
 - Required quality tests: [TBD]
 - Unknowns / reversible assumptions: [TBD]
-- Target versions: [Light and Full by default]
+- Generate both Light and Full. Install choice: [Light / Full / both]
 - Intake status: [DRAFT / APPROVED]

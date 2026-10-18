@@ -14,6 +14,12 @@
 
 No browser or model can honestly claim that a separately hosted project/agent has been installed without actual authenticated tool execution or user-supplied proof. Text-based quality checks are useful but are not deterministic software tests or legal/security certification. Exact platform surfaces and subscription entitlements may change.
 
+## v3.1.1 — 2026-10-18
+
+- Separated edition **generation** from **installation**. Every kit generates both Light and Full. The user chooses which generated edition to install, and that choice does not omit the other edition.
+- Gemini adapter still prefers Skills and now warns that Skills do not yet support some Gem functionality, including Deep Research and Canvas. Source: Gemini Apps Help, [About the transition from Gems to skills](https://support.google.com/gemini/answer/18560919?hl=en), checked 2026-10-18.
+- Grok adapter documents reusable Skills in Grok Bot and Projects on grok.com. It requires a live interface and account check before claiming a standard Grok conversation can save a Skill. Sources: [Grok Bot Skills and routines](https://docs.x.ai/grok-bot/skills-routines-and-automations) and [Grok FAQ](https://docs.x.ai/grok/faq), checked 2026-10-18.
+
 ## v3.1.0 — 2026-10-18
 
 - Added verified Factory repository share prompt and one-message bootstrap instructions for ChatGPT, Claude, Gemini and Grok.

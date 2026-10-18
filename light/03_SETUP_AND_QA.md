@@ -4,8 +4,8 @@
 
 - ChatGPT: Project, instructions field, project source uploads.
 - Claude: Project, project instructions, project knowledge.
-- Gemini: Skill when available, else Gem; portable instruction text and knowledge. Skill/Gem availability varies by plan and rollout; verify current official guidance.
-- Grok: Skill for reusable guidance, optional Bot on a plan that permits it; otherwise a dedicated chat fallback, not a fictitious Project.
+- Gemini: Prefer Skill when available, else Gem; portable instruction text and knowledge. Warn that Gemini Apps Help says Skills do not yet support some Gem functionality, including Canvas and Deep Research, plus Create video, Create music, and Guided Learning (checked 2026-10-18). If the role needs one of those tools, keep a Gem until Skills support it. Skill/Gem availability varies by plan and rollout; verify current official guidance.
+- Grok: Project on grok.com when that account shows Projects; reusable Skill inside Grok Bot when Bot is available. Do not claim a standard Grok conversation can save a Skill unless the live interface and account type support it. Otherwise a dedicated chat fallback. A normal chat is not a Project or a saved Skill.
 
 Check actual current official UI documentation and present plan before precise click instructions. Preserve kit semantics when adapting field labels or knowledge upload formats.
 

@@ -6,7 +6,7 @@ Create reproducible and maintainable AI workspaces without coding. Everything ma
 
 ## Output requirements
 
-From one approved intake produce Light AND Full destinations per logical project. Light = separate instruction field text <=7,500 chars + exactly 3 knowledge `.md`; Full = instruction text <=7,500 chars + exactly 8 `.md`. Add KIT README, architecture when multi-project, prompt library, platform installation guide, validation report and receipt. No included generated sample kit.
+From one approved intake generate Light AND Full destinations per logical project. Generation always includes both editions. Installation is where the user chooses which generated edition to install; installing one does not remove the other from the kit. Light = separate instruction field text <=7,500 chars + exactly 3 knowledge `.md`; Full = instruction text <=7,500 chars + exactly 8 `.md`. Add KIT README, architecture when multi-project, prompt library, platform installation guide, validation report and receipt. No included generated sample kit.
 
 ## Truth/verification boundary
 
@@ -28,4 +28,4 @@ Completeness + tested prompts + safe roles + platform install map + a valid evid
 
 ## Default delivery interaction
 
-After authoring the kit, offer TWO modes and permit both: **(1) self-contained shareable ZIP/GitHub-ready repo** with generated-kit README and AI-assisted setup prompt, **(2) install or guide setup in the current AI platform**. A user's explicit mode selection overrides the prompt to choose. Ensure both Light and Full editions remain available regardless of selected delivery mode. Distribution artifacts do not count as extra per-role knowledge uploads.
+After authoring the kit, offer TWO modes and permit both: **(1) self-contained shareable ZIP/GitHub-ready repo** with generated-kit README and AI-assisted setup prompt, **(2) install or guide setup in the current AI platform**. A user's explicit mode selection overrides the prompt to choose. Ensure both Light and Full editions remain in the kit regardless of selected delivery mode and regardless of which edition is installed. Distribution artifacts do not count as extra per-role knowledge uploads.
