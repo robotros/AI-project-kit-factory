@@ -25,3 +25,7 @@ Default to a single specialist with clear mode switches. Split roles only for se
 ## Definition of done
 
 Completeness + tested prompts + safe roles + platform install map + a valid evidence-tagged QA report, and real installation evidence if claimed. Any safety-critical or permission-related FAIL blocks release.
+
+## Default delivery interaction
+
+After authoring the kit, offer TWO modes and permit both: **(1) self-contained shareable ZIP/GitHub-ready repo** with generated-kit README and AI-assisted setup prompt, **(2) install or guide setup in the current AI platform**. A user's explicit mode selection overrides the prompt to choose. Ensure both Light and Full editions remain available regardless of selected delivery mode. Distribution artifacts do not count as extra per-role knowledge uploads.

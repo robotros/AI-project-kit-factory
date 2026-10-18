@@ -34,3 +34,7 @@ For each prompt simulate normal inputs, an ambiguous instruction, a request for 
 `/validate Test artifact structure, prompts, role boundaries, handoffs and external installation status. Give me evidence-tagged verdicts.`
 
 These are prompt samples only, NOT a sample destination kit.
+
+## Portable setup prompt
+
+Each generated kit needs a copy-ready `AI_SETUP_PROMPT.md` that tells the receiving AI to read the actual README/manifest/role files; to ask for uploaded files if repository access fails; to audit real account write permissions; to obtain approval; to install or guide setup one role at a time; and to run role/handoff acceptance tests. It must not imply ChatGPT, Claude, Gemini and Grok have equivalent agent tooling or built-in commands.

@@ -37,3 +37,19 @@ Replace bracketed placeholders with your details; if a detail is missing, the Fa
 ## 9 — Detect installation gaps
 
 > Tell me what was *generated*, what was *actually installed*, and what is *not yet verified*. Show the required actions in order, whether you or I can do them, and the evidence that would change each status to VERIFIED. Never infer success from draft files alone.
+
+## 10 — Final delivery choice
+
+> `/deliver` Present two options: **1. Shareable ZIP/GitHub-ready package** with polished README and AI_SETUP_PROMPT.md, **2. Install this kit in the current AI tool** through authorized tools or UI walkthrough and tests. Accept **both**. If I already chose, proceed.
+
+## 11 — GitHub-ready ZIP
+
+> `/deliver package` Create the full portable kit with Light and Full role folders, README, AI_SETUP_PROMPT.md, KIT_MANIFEST.md, handoffs if multi-role, optimized prompts, platform installation and validation files. If ZIP creation is unavailable, provide exact named file contents. Do not invent a published link.
+
+## 12 — Walk through this AI platform
+
+> `/deliver install` Install the generated kit **here** when you have actually connected, permitted creation tools; otherwise guide me through each project/agent one step at a time. Inspect the saved setup using real evidence and conduct fresh-context tests. Distinguish generated-only from operationally tested.
+
+## 13 — Share Factory by link
+
+> Open https://github.com/robotros/AI-project-kit-factory and read START_HERE.md and the selected edition's full instructions/Markdown files. If access fails, request uploads instead of guessing. Help install the Factory in this AI tool, and then design a kit with two delivery choices.

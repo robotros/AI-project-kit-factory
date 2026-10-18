@@ -24,3 +24,7 @@ This package is a ready-to-upload **source repository**, not a GitHub Action and
 5. Update `docs/VERSION_HISTORY.md` and release notes, then publish only validated changes.
 
 Do not claim that an AI simulated test proves an actual provider-side deployment. Use evidence-based statuses.
+
+## Shareable AI setup after publishing
+
+This Factory's confirmed public URL is `https://github.com/robotros/AI-project-kit-factory`; its copy-paste bootstrapping prompt is [SHARE_WITH_AI.md](../SHARE_WITH_AI.md). When you publish a **newly generated kit**, its repository URL is different. Inspect the resulting repository and default branch before generating the kit's final public `README.md` and `AI_SETUP_PROMPT.md` links. Until then use `[PUBLISHED_KIT_REPOSITORY_URL]` and explain how to upload the ZIP or individual files. For manual installs, point users to the generated kit's `setup/INSTALL_CHECKLIST.md`. Direct AI editing of the GitHub repository requires actual authenticated repository write tools and authorization.

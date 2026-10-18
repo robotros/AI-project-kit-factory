@@ -1,14 +1,31 @@
-# Universal starter prompt — copy into ChatGPT, Claude, Gemini, or Grok
+# AI-assisted installation — universal Factory bootstrap
+
+**Public Factory repository:** https://github.com/robotros/AI-project-kit-factory  
+**Fast share prompt:** [SHARE_WITH_AI.md](SHARE_WITH_AI.md)
+
+## Copy this into ChatGPT, Claude, Gemini or Grok
 
 ```text
-Act as an AI Project Kit Factory. Use the instructions and knowledge I have supplied. If nothing is supplied, follow this prompt as a standalone compact factory.
+You are helping me install and operate the AI Project Kit Factory.
+Source: https://github.com/robotros/AI-project-kit-factory
 
-1. Help me define the purpose, target users, platform(s), available plan/tools, success criteria, data sensitivity and desired specialist roles. Ask only blocking questions; use declared defaults for non-blocking choices.
-2. Propose SINGLE or MULTI PROJECT architecture based on meaningful separation of responsibilities. Do not create unnecessary projects.
-3. Generate BOTH Light and Full editions of every logical project/agent using the same requirements: Light = project instruction text (<=7,500 characters) + exactly 3 named Markdown knowledge files; Full = instruction text (<=7,500 characters) + exactly 8 named Markdown knowledge files. Include installation README, tested prompt library, QA checklist/report, handoff formats if multiple roles, and per-platform adapters. Do not fabricate platform limits or capabilities.
-4. Prefer executing setup if you have a genuine authorized project/agent creation or computer-use capability. First inventory tools, verify target access, explain the intended changes and get my approval for writes. After each action inspect the actual result. If not able, guide me click-by-click using current interface terminology when verified, then request evidence of completion.
-5. Validate the generated files automatically by inspecting the text, and conduct representative safe tests. Separate artifact PASS from installation VERIFIED. Never claim external installation without evidence. Identify constraints, fixes and remaining manual steps.
-6. Present downloadable files when your host actually supports them; otherwise deliver individually labeled copy/paste file contents. No Python, code execution, shell scripts, APIs, or external paid tools required.
+Read this repository's README.md, START_HERE.md and whichever Factory edition I select (light/ or full/), including its PROJECT_INSTRUCTIONS.txt and all numbered Markdown knowledge files. If you cannot access any required file, say so and ask me to upload the repository ZIP or those files. Do not guess their contents.
 
-Begin the AI-assisted setup now.
+1. Help me establish the Factory in my current AI platform. Inventory your actual tools before claiming you can create projects, Gems, Skills or Bots. Get my explicit approval for external changes, verify successful actions through real results, or walk me through the supported user interface instead.
+2. Once the Factory is ready, interview me briefly for the goal of a NEW AI workflow; choose one project unless multiple specialist projects materially help. Generate BOTH Light (3 reference .md files per role) and Full (8 per role) from the same requirements with <=7,500-character project instructions, prompt library, a README, role/handoff details and QA.
+3. At delivery present exactly two primary paths and allow both:
+   Option 1: GitHub-ready ZIP package with README.md, AI_SETUP_PROMPT.md, KIT_MANIFEST.md, both editions, optimized prompts, platform installation and validation files. If you cannot make a ZIP, supply fully named copy/paste files instead. If it isn't published on GitHub, leave a clearly labeled placeholder for the new kit's future URL rather than inventing a link.
+   Option 2: Install the project(s) in THIS AI platform, using real authorized tools and permission where possible, or a one-project-at-a-time guided setup with checkpoints.
+4. Validate artifacts and simulated behavior separately from actual installation and live project behavior. Give an evidence-based deployment receipt. Never conflate a drafted ZIP, a published repository and an installed agent.
+5. Remain AI-only: no Python, terminal, scripts, forms, APIs, or paid external services required.
+
+Start by identifying the easiest supported installation option in the current platform. Ask only a truly blocking question.
 ```
+
+## Starting a new kit after installing the Factory
+
+> `/new-kit` Design [goal] for [audience] across [target platforms]. Choose single or multi-project architecture, generate both Light and Full versions, validate files and prompts, then let me choose **1 — Shareable ZIP/GitHub package**, **2 — Install here**, or **both**.
+
+## Notes
+
+A GitHub repository link does not grant a model browsing or account-management access. If your AI cannot access the files, use GitHub's **Code → Download ZIP**, then attach the relevant files or paste them into chat. The shareable Factory link is NOT automatically the link for kits you generate later. Each independently published kit has its own URL.

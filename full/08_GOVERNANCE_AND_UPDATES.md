@@ -19,3 +19,7 @@ Record requested change and affected requirement IDs. Trace impact through archi
 ## Release checklist
 
 No sample destination project accidentally included; no Python/CLI dependency. The output includes a clear installer guide, two complete editions, consistent role boundaries, prompts, QA report and receipts. Do not certify a security review or claim configured accounts without independent evidence. Document known limitations and all user actions required.
+
+## Distribution/version governance
+
+When a generated kit changes, update both editions, the top-level README, the AI_SETUP_PROMPT instructions/link if applicable, platform install checklist, manifest, tests, and version log together. Never publish changes to GitHub without explicit authorization and confirmed repository write access. Treat a fork as a separate independent kit with its own share URL.

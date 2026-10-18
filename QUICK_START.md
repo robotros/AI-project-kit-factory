@@ -1,34 +1,33 @@
-# Install the AI-Only Project Kit Factory
+# Quick Start — AI-only Project Kit Factory
 
-## 1. Choose which Factory edition to install
+## Share the Factory with one prompt
 
-- **Light Factory:** use `light/PROJECT_INSTRUCTIONS.txt` and upload only `light/01_FACTORY_CORE.md`, `light/02_BLUEPRINT_AND_PROMPTS.md`, `light/03_SETUP_AND_QA.md` (3 uploads).
-- **Full Factory:** use `full/PROJECT_INSTRUCTIONS.txt` and upload all eight numbered `.md` files in `full/` (8 uploads).
+Visit **https://github.com/robotros/AI-project-kit-factory**. Copy the prompt in [SHARE_WITH_AI.md](SHARE_WITH_AI.md) to any supported AI. It tells the assistant to read this repo, ask for file uploads if it cannot, and either create the Factory directly with real permitted tools or guide your UI setup.
 
-Both editions can create **both Light and Full destination kits**. Light is suitable when file/usage limits are restrictive.
+**Paste-friendly short version:**
 
-## 2. Set it up where you work
+> Read https://github.com/robotros/AI-project-kit-factory/blob/main/START_HERE.md and the Light or Full instructions and numbered knowledge files. If you can't access them, ask for an upload. Help set up the Factory in this AI, then build a new kit with Light and Full editions and offer (1) a GitHub-ready ZIP with README and AI_SETUP_PROMPT.md, (2) guided/direct installation into this AI, or both. Never claim account changes or publication without evidence.
 
-- **ChatGPT:** create a Project, paste instructions into Project settings, upload the selected reference files. Do not confuse Project with a custom GPT; use a custom GPT only if specifically requested and available.
-- **Claude:** create a Project, set project instructions, add reference files to project knowledge.
-- **Gemini:** prefer a Skill if available (create with Gemini or from `SKILL.md`); otherwise use a Gem. Adapt reference content to its knowledge mechanism, not an imaginary “Project” feature.
-- **Grok:** prefer a Skill for reusable expertise; on eligible accounts, use Grok Bot for action-taking or multi-agent work. Otherwise use a new dedicated chat with instructions and attached context.
+## Install the Factory manually if needed
 
-See `docs/PLATFORM_GUIDE.md`. If you do not know the platform, begin in any chat and ask the AI to select the appropriate path.
+**Light:** paste `light/PROJECT_INSTRUCTIONS.txt` into the instruction field and upload `light/01_FACTORY_CORE.md`, `light/02_BLUEPRINT_AND_PROMPTS.md`, `light/03_SETUP_AND_QA.md` (3 files).
 
-## 3. Paste this in the new Factory
+**Full:** paste `full/PROJECT_INSTRUCTIONS.txt` and upload the eight numbered `full/*.md` references (8 files).
 
-> /new-kit — Interview me briefly to design a single-project or multi-project AI workflow. Default to generating Light (3 knowledge Markdown files) AND Full (8 knowledge Markdown files) for every destination project, plus platform-specific instructions, a README, optimized prompts, handoff packets if applicable, and a validation report. Determine my target platform and plan. Attempt installation only if you can actually access and modify it with my permission; otherwise guide me step by step and verify my results. Begin with the few decisions that would materially affect the design.
+Platform paths differ: ChatGPT uses Projects; Claude uses Projects; Gemini uses Gems/Skills where supported; Grok uses Skills/Bots where supported or a dedicated-chat fallback. [Platform guide](docs/PLATFORM_GUIDE.md) documents caveats, and account availability must be checked.
 
-## 4. Request setup & acceptance tests
+## Build your first kit
 
-> /setup — Inventory your actual tools and the platform's available UI. Show what you can do directly and what needs my action. Configure only with my authorization; no fictitious actions. Guide and verify each unavailable step.
+> `/new-kit` Design an AI workflow for [goal]. Decide whether one or multiple projects makes sense. Generate both Light and Full with precise files, operating prompts, acceptance checks, and handoff contracts where applicable.
 
-> /validate — Check completeness, instruction lengths, file counts, cross-platform mappings, prompts, handoffs, privacy safeguards and role-boundary tests. Run safe example tasks; issue a table of results with evidence sources. Distinguish generated-only, user-confirmed, and tool-verified installation.
+## Choose how to deliver/install
 
-## 5. Installation is complete only when
+- **1 — Package:** `/deliver package` creates a ZIP suitable for uploading as a GitHub repository, including a new `README.md`, `AI_SETUP_PROMPT.md`, full files and documentation. A live generated-kit GitHub link exists **only after publication**; otherwise include a clearly marked placeholder and file-upload fallback.
+- **2 — Install here:** `/deliver install` checks this AI's actual permission to create/edit persistent projects and asks consent before writing. If it cannot write, it guides UI steps and requests checkpoints. It runs acceptance checks.
+- **Both:** `/deliver both` performs package first, then installation guidance or approved direct setup.
 
-- Platform-specific instructions and reference files are present.
-- A fresh test task behaves as expected in each created project/agent.
-- All critical checks pass; gaps are flagged rather than silently ignored.
-- The final setup receipt states who confirmed the created objects and how.
+## Validate
+
+> `/validate` Compare required vs supplied files, run safe prompts, inspect roles, count files and characters exactly where possible, and produce separate artifact/package/publication/installed/operational statuses with evidence.
+
+**No Python, scripts, CLI, or API keys are required.** The Factory will supply copy/paste files rather than a false ZIP link when file creation is not supported. For full requirements see [delivery modes](docs/DELIVERY_MODES.md) and [output contract](docs/OUTPUT_CONTRACT.md).

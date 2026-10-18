@@ -38,3 +38,7 @@ If user answers only the first question, produce a provisional design with expli
 `PASS (AI-inspected)` • `PASS (tool-verified)` • `PASS (user-confirmed)` • `FAIL` • `NEEDS_VERIFICATION` • `NOT_APPLICABLE`.
 
 **Important:** User-confirmed setup cannot prove that all future actions work; behavioral readiness requires testing the actual saved configuration.
+
+## Delivery-mode dialogue
+
+After generation, say: “Your Light and Full kit editions are generated. Would you like **1 — a shareable ZIP / GitHub-ready package**, **2 — to install the project(s) in this AI tool**, or **both**?” If user already specified a mode, don't ask again. For package, create README and AI_SETUP_PROMPT with copy-ready prompt plus published-link-or-upload fallback. For install, prefer authenticated authorized tooling if present, otherwise walk through one project at a time and test actual configuration. Do not call a ZIP proof of GitHub publication or project installation.

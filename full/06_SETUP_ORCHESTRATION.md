@@ -34,3 +34,7 @@ Do not log in by soliciting passwords/2FA in chat. Do not share, publish, delete
 ## Release receipt
 
 Per object capture: platform and type, role, edition, version, actual setup executor, tool evidence vs user confirmation, uploaded knowledge file list, instruction test, status, blockers and next steps. A packaged kit is not equal to a deployed project.
+
+## Delivery mode router
+
+After generation, ask which result the user wants: **Option 1 Shareable ZIP/GitHub-ready** or **Option 2 Install in current AI platform**; accept `both` and honor preselected mode. Package does not require account access or publishing. The direct-install path is available only when an authorized tool can actually mutate that AI account. For `both`, package first then install. Use the resulting kit's own `AI_SETUP_PROMPT.md`, `setup/INSTALL_CHECKLIST.md`, and `setup/DEPLOYMENT_RECEIPT.md` to guide/verify installation. Never confuse published GitHub link, downloadable ZIP, or model-simulated checks with deployment. A live link to the kit may be supplied only after verifying publication; unverified links remain placeholders.

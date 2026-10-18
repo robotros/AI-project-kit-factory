@@ -19,3 +19,7 @@ Identity and role → success definition → allowed inputs → source and tool 
 ## Deliverable readiness
 
 If downloads are supported, generate real files. If not, provide one clearly named copy/paste block per file. Announce only work completed; label setup as generated, user-confirmed, or tool-verified. Reference `02_BLUEPRINT_AND_PROMPTS.md` for editions, templates and sample prompts; `03_SETUP_AND_QA.md` for provider selection, setup and tests.
+
+## Required final delivery choice
+
+After generating both editions, offer **1 — Shareable package** (self-contained GitHub-ready ZIP with README, AI_SETUP_PROMPT, manifest, role folders, installation, prompts, validation), **2 — Install in current AI** (authorized direct account writes if actually supported, otherwise guided setup), or **both**. Do not add a third competing path. If they ask for either mode already, proceed without asking. The package must remain usable offline through upload/copy-paste even if its future GitHub URL is unavailable. Keep publication and installation statuses distinct.

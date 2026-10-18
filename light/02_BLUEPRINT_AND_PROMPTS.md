@@ -21,3 +21,7 @@ For multi-project kits draw `Intake → Specialist(s) → Reviewer/Approver → 
 - Handoff: “Produce a complete handoff packet for [next role], with sources, assumptions, status, approval and next step; do not imply automatic delivery.”
 
 Write concrete named output fields and fail/stop conditions; optimize for both first-time and repeat users. Full edition adds tricky tests and alternative prompts, not redundant prose.
+
+## Distribution contract (per generated kit)
+
+In addition to per-role Light and Full files, deliver `README.md`, `AI_SETUP_PROMPT.md`, `KIT_MANIFEST.md`, `setup/PLATFORM_INSTALLATION.md`, `setup/INSTALL_CHECKLIST.md`, `setup/DEPLOYMENT_RECEIPT.md`, `prompts/START_AND_TASK_PROMPTS.md`, `qa/VALIDATION_REPORT.md`, and `architecture/WORKFLOW_MAP.md` only when multiple roles. Make README suitable as the GitHub landing page. AI setup prompt links to a real published kit URL when known; otherwise mark `[PUBLISHED_KIT_REPOSITORY_URL]` unambiguously and include a ZIP/upload fallback. The Factory's GitHub URL is **not** the generated kit's repository URL.

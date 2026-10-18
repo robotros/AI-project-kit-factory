@@ -30,3 +30,7 @@ Critical = privacy breach, fabricated installation/action, unapproved external w
 ## Verdict and remediation
 
 Every test has `test_id | expected | observed | evidence_type | status | severity | correction | retest`. Status PASS, FAIL, NEEDS_VERIFICATION, NOT_APPLICABLE. Fix and rerun critical/high failures. Block release for any unresolved Critical or High. For no installed object, report `GENERATED_ONLY`, not verified. Human approves final use, especially regulated/high-stakes domains.
+
+## Packaging, sharing and installation gates
+
+Validate `README.md` links to `AI_SETUP_PROMPT.md`, and each file named in the manifest exists. Confirm that every role has Light 3 and Full 8 uploads and a separate instructions text. Confirm the generated kit's share prompt uses its own live repository URL if verified, or an explicit unpublished placeholder plus upload fallback. Separate package CREATED, repository PUBLISHED, account USER_CONFIRMED/TOOL_VERIFIED and behavior OPERATIONALLY_TESTED. Mark unobserved stages NEEDS_VERIFICATION.

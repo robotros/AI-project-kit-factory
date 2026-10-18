@@ -23,3 +23,7 @@ When host supports file creation: create actual files, check path exists, then l
 ## Light vs Full consistency
 
 Keep requirement IDs and constraints aligned. Full may add specialist nuances, alternative prompts, release/regression suites, maintenance and audit trail. It cannot silently broaden data access, relax approvals or grant tools absent in Light. Report intentional deviations for platforms that cannot hold required uploads.
+
+## GitHub-ready packaging contract
+
+Generate a polished top-level README plus `AI_SETUP_PROMPT.md` that works as a copy-paste onboarding request in ChatGPT, Claude, Gemini and Grok. Reference a real **generated kit** GitHub URL only after publication, otherwise use a labeled placeholder and a ZIP/files-upload fallback. Follow `docs/OUTPUT_CONTRACT.md` and the Factory templates when available. `README.md` must link relatively to `AI_SETUP_PROMPT.md`, `setup/PLATFORM_INSTALLATION.md`, `setup/INSTALL_CHECKLIST.md` and prompts. Include manifest, both edition folders, role list, handoff guide for multi-project kits, and concrete validation instructions. A ZIP file is not a published repository or an installed agent.

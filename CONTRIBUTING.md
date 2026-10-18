@@ -27,3 +27,7 @@ This is an **AI-only** workflow. Contributions should consist of natural-languag
 ## Privacy
 
 Do not submit private conversations, personal data, real credentials, copyrighted reference material without permission, or installation screenshots containing account details.
+
+## Preserve the delivery modes
+
+Keep generated-kit README, AI_SETUP_PROMPT, manifest, install checklist and edition folders in sync with `docs/OUTPUT_CONTRACT.md`. The Factory must always offer package vs current-tool setup, allow both, avoid assumed GitHub or account access, and verify external actions independently. Keep the shareable Factory URL up to date. Do not add executable generators or sample destination kits.

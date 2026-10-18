@@ -6,3 +6,5 @@
 4. Start `/new-kit` with a goal and destination platforms. The Full Factory still generates **BOTH** Light and Full destination editions.
 5. Execute `/setup` to map capabilities and either perform authorized configuration or walk through it.
 6. Execute `/validate` to check artifacts, behavior and actual installation separately; retain its evidence-tagged report.
+
+For one-message AI onboarding using the public repository, see [SHARE_WITH_AI.md](../SHARE_WITH_AI.md). After you generate a kit, use `/deliver package`, `/deliver install`, or `/deliver both` (see [delivery modes](../docs/DELIVERY_MODES.md)).

@@ -1,6 +1,6 @@
 # Cross-platform installation and capability guide
 
-**Research snapshot: 2026-10-17.** Re-check official help immediately before directing a user through the UI. Plans, rollout, admin restrictions and mobile/web differences affect capabilities. A platform's “project”, “skill”, “Gem”, “bot”, and “chat” are not necessarily equivalent.
+**Research snapshot: 2026-10-17; recheck before use.** Re-check official help immediately before directing a user through the UI. Plans, rollout, admin restrictions and mobile/web differences affect capabilities. A platform's “project”, “skill”, “Gem”, “bot”, and “chat” are not necessarily equivalent.
 
 | Platform | Primary persistent target | Basic setup | More agentic option | Limits/caveats |
 |---|---|---|---|---|
@@ -41,3 +41,8 @@
 - Grok Bot availability: https://x.ai/news/grok-bot-more-plans
 
 Provider product pages establish general features, **not** the specific user's plan or authorized access. Do not copy advice implying that a setup action succeeded without evidence.
+
+
+## Sharing is not installation
+
+The Factory bootstrap link is `https://github.com/robotros/AI-project-kit-factory`. For a **generated kit**, use only its own published repository URL after verifying it exists; otherwise use the ZIP or upload/reference files. Browsing GitHub does not confer project-creation permissions. See [delivery modes](DELIVERY_MODES.md).

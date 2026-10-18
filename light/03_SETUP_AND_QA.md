@@ -4,7 +4,7 @@
 
 - ChatGPT: Project, instructions field, project source uploads.
 - Claude: Project, project instructions, project knowledge.
-- Gemini: Skill when available, else Gem; portable instruction text and knowledge. On current personal accounts Skills are rolling out, and Gems are scheduled to transition starting Nov 2026.
+- Gemini: Skill when available, else Gem; portable instruction text and knowledge. Skill/Gem availability varies by plan and rollout; verify current official guidance.
 - Grok: Skill for reusable guidance, optional Bot on a plan that permits it; otherwise a dedicated chat fallback, not a fictitious Project.
 
 Check actual current official UI documentation and present plan before precise click instructions. Preserve kit semantics when adapting field labels or knowledge upload formats.
@@ -28,3 +28,9 @@ Installation pass requires evidence from authenticated tool or user confirmation
 ## Delivery report
 
 Include an inventory; target-platform adapter; concise change/install checklist; issue list and evidence-labeled status for each role/edition. The user should know exactly what to upload and what remains undone.
+
+## Two delivery paths after generation
+
+**1 — Package:** Make a self-contained package, linked by local README to `AI_SETUP_PROMPT.md` and the install checklist. Include all editions and role files; ZIP only when file tooling exists. Clearly mark a not-yet-published generated kit's GitHub URL as a placeholder. Test internal links/file inventory before declaring package ready.
+
+**2 — Install here:** Detect the current provider; use authorized account-creation tools only after explicit approval, or conduct a short manual UI walkthrough, one role at a time. Read back configuration where possible and run installed-context task tests. If requested, do both sequentially. Do not treat a simulated test, a GitHub URL or user intent as proof of actual installation.
