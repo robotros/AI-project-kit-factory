@@ -1,0 +1,10 @@
+# Local artifacts and backups; never required for using the Factory
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.zip
+*.bak
+*.tmp
+.env
+.env.*
+!*.env.example

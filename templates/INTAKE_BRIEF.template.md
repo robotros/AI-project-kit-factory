@@ -1,0 +1,18 @@
+# Intake brief — blank template
+
+- Kit title: [TBD]
+- Desired outcome and success measure: [TBD]
+- Primary users and skill level: [TBD]
+- Destination platforms and surfaces: [ChatGPT / Claude / Gemini / Grok / other]
+- Account plans/feature availability: [known / unknown]
+- Architecture: [single / multiple / factory to recommend]
+- Proposed specialist roles: [TBD]
+- Inputs, trusted sources and allowed data: [TBD]
+- Outputs and formats: [TBD]
+- Human approval/decision points: [TBD]
+- Tools and integrations actually authorized: [none until confirmed]
+- Privacy/security boundaries: [TBD]
+- Required quality tests: [TBD]
+- Unknowns / reversible assumptions: [TBD]
+- Target versions: [Light and Full by default]
+- Intake status: [DRAFT / APPROVED]

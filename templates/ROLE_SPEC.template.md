@@ -1,0 +1,16 @@
+# Role contract — blank template
+
+- Role: [NAME]
+- Why a separate role is justified: [REASON]
+- Responsibilities: [IN-SCOPE]
+- Explicit exclusions: [OUT-OF-SCOPE]
+- Trigger: [REQUEST / HANDOFF]
+- Required inputs: [FIELDS]
+- Grounding/source-of-truth: [SOURCE]
+- Required output format: [FIELDS]
+- Tool access: [VERIFIED CAPABILITIES ONLY]
+- Approval authority: [HUMAN / NAMED ROLE]
+- Handling missing or conflicting data: [POLICY]
+- Escalate/stop conditions: [RULES]
+- Acceptance criteria: [TESTABLE]
+- Receives from / sends to: [ROLES]
