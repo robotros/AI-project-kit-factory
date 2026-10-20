@@ -1,8 +1,8 @@
-# Factory v1.4 deployment receipt (fill only after actual evidence)
+# Factory v1.4.1 deployment receipt (fill only after actual evidence)
 
 | Field | Value to capture |
 |---|---|
-| Package version | v1.4 |
+| Package version | v1.4.1 |
 | Factory edition | LIGHT (3) / FULL (8) — NEEDS_VERIFICATION |
 | Host AI platform / account class / environment | NEEDS_VERIFICATION |
 | Project, Gem, Bot or agent name/link | NEEDS_VERIFICATION |

@@ -1,4 +1,4 @@
-# AI Project Kit Factory v1.4 — cross-platform capability matrix
+# AI Project Kit Factory v1.4.1 — cross-platform capability matrix
 
 Both **Factory Light 3** and **Factory Full 8** can target each destination below, subject to actual UI and account eligibility. These refer to **Factory install knowledge**. Both install editions still generate BOTH specialist 3/8 editions.
 

@@ -1,6 +1,6 @@
 # Archived v1.3.1 manual guidance (FULL-only paths below)
 
-> **v1.4 override:** Choose Factory Light or Factory Full first using [EDITION_SELECTION_AND_MIGRATION.md](EDITION_SELECTION_AND_MIGRATION.md). All v1.3.1 references below to “the eight Factory files” describe the **Full** route only. For Light use the canonical 3-file folder and its instructions; Skill ZIP filenames ending v1.3 are historic and should be replaced with the v1.4 Light/Full ZIPs. Always validate actual UI and permissions.
+> **v1.4.1 override:** Choose Factory Light or Factory Full first using [EDITION_SELECTION_AND_MIGRATION.md](EDITION_SELECTION_AND_MIGRATION.md). All v1.3.1 references below to “the eight Factory files” describe the **Full** route only. For Light use the canonical 3-file folder and its instructions; Use the v1.4.1 Light/Full Skill ZIPs from `../distributions/`. Always validate actual UI and permissions.
 
 > **Interactive setup:** If an AI is guiding a user through this document, first follow the complete no-placeholders prompt in [`../AI_SETUP_PROMPT.md`](../AI_SETUP_PROMPT.md). Begin by confirming/determining the platform, ask one question at a time, guide **one UI action per reply**, and then test fresh-account behavior. For direct manual guides see [`../START_HERE.md`](../START_HERE.md).
 

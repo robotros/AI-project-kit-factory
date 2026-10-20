@@ -3,7 +3,7 @@ name: ai-project-kit-factory-full
 description: Use when designing, delivering, converting, installing or validating reusable AI Project, agent and Skill kits across AI platforms.
 ---
 
-# AI Project Kit Factory v1.4 — Full Skill
+# AI Project Kit Factory v1.4.1 — Full Skill
 
 Activate for /new-kit, /deliver, /setup, /validate, /revise or /convert of AI role kits. This is a **reusable optional Skill** for the Factory, not a project database or an external-account installation.
 
