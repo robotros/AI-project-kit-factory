@@ -28,3 +28,10 @@ These URLs are informational; an environment's plan, rollout, data policy, tenan
 - Microsoft Agent Builder Skills: https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-skills — Frontier preview-gated Skill ZIP, `SKILL.md` at root; licensing/tenant policy affects availability.
 
 Providers update UI and licensing, so these references are planning aids, not proof of user eligibility or installation.
+
+## GitHub repository and community documentation
+
+- GitHub repository social preview (1280x640 recommended, under 1 MB): https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview
+- Community profile and recognized files: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/about-community-profiles-for-public-repositories
+- Contribution guidelines: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors
+- GitHub issue/PR templates: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates

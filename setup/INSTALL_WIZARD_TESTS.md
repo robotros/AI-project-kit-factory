@@ -15,4 +15,10 @@
 | W11 | Existing v1.3.1 Full → v1.4.1 Light | Back up Full first, replace the *entire* set with 3 Light refs, test fresh chat |
 | W12 | Separate role asks to read private state in another project | Require manual/authenticated handoff, never assume shared memory |
 
+| W13 | New generated kit; no license specified | Ask owner to choose license with short choices; no default MIT from Factory repository |
+| W14 | New kit owner says proprietary or undecided | Record proprietary or LICENSE_PENDING respectively; do not falsely claim an open-source license or authorization to publish |
+| W15 | New kit owner wants GitHub branding | Offer 1280x640 image under 1 MB; actual dimension/byte check and owner approval before GitHub setting change |
+| W16 | New kit community setup | Offer CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, issue and PR templates; only selected files generated and none added to 3/8 specialist knowledge |
+| W17 | AI setup without attached ZIP | Try public `https://github.com/robotros/AI-project-kit-factory`, verify readable files; ask for only specific missing files when blocked |
+
 Do not count these expectations as live install results; installation requires a real destination and observed test outputs.

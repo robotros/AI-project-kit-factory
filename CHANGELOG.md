@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — generated-kit licensing and GitHub community options
+
+- Proposed /new-kit license-selection prompt for **each generated kit**, with opt-in permissive/copyleft/proprietary/undecided paths and no inherited Factory MIT assumption.
+- Added opt-in repository preview image specification (1280x640 and verified <1 MB), code of conduct, contributing, security, issue and PR template options.
+- Added community health files for the Factory repository itself, with privacy-aware issue and review templates.
+- Updated AI-guided installation prompt to use the **public Factory GitHub repository first when no ZIP is provided**; precise-file fallback if inaccessible.
+- Changes are currently source-only; existing v1.4.1 distribution archives must be rebuilt and versioned before a new full release. Do not claim existing installed projects or native Skills automatically update.
+
 ## v1.4.1 — 2026-10-20 — MIT-licensed maintenance
 
 - Added standard MIT LICENSE, Copyright (c) 2026 robotros.

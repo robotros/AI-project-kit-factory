@@ -12,4 +12,6 @@
 - [ ] Log PASS/FAIL/NEEDS_VERIFICATION and evidence in `setup/DEPLOYMENT_RECEIPT.md`; label GENERATED_ONLY if not installed.
 - [ ] For any failing installation, restore previous text/files and retest; do not publish/share unless explicitly approved.
 
+**Generated-kit (not host Factory) publication check:** ask for license choice; show optional community docs and under-1-MB social-preview offer; record approvals, actual file/image checks and the public-repo-first fallback for AI-guided setup. Do not count extras as specialist knowledge or assert installation from files alone.
+
 No credentials, terminal commands, paid APIs or scripting are needed.
