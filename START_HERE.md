@@ -1,6 +1,6 @@
-# START HERE — Factory v1.4 (Light and Full)
+# START HERE — Factory v1.4.1 (Light and Full)
 
-This is a shareable, GitHub-ready release of the **AI Project Kit Factory**, not an already-installed agent, published repository or automatically activated Skill. It generates BOTH specialist Light and specialist Full kits from **either** Factory installation edition.
+This is a shareable, GitHub-ready release of the **AI Project Kit Factory**, not an already-installed agent or automatically activated Skill; publishing this release is separate from installing it. It generates BOTH specialist Light and specialist Full kits from **either** Factory installation edition.
 
 ## Fastest route — AI-guided setup
 

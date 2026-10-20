@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.4.1 — 2026-10-20 — MIT-licensed maintenance
+
+- Added standard MIT LICENSE, Copyright (c) 2026 robotros.
+- Updated the verified repository URL and release documentation.
+- Preserved Light (three-file) and Full (eight-file) Factory contracts and the six workflow commands.
+- Rebuilt versioned install and Skill packages in the standalone v1.4.1 build. Those binaries require separate GitHub upload or synchronization.
+- GitHub merge, release publication and external-agent validation remain separate approval and verification steps.
+
+
 ## v1.4 — 2026-10-20 — dual installable Factory editions
 
 - **NEW** Factory Light: exactly 3 complete consolidated `.md` references and separate <=7,500-character instructions, with same supported six commands and all platform/workflow/QA/governance capabilities.

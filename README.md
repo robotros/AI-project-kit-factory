@@ -1,6 +1,6 @@
-# AI Project Kit Factory v1.4 — Light + Full | Projects, Agents, Skills
+# AI Project Kit Factory v1.4.1 — Light + Full | Projects, Agents, Skills
 
-**Release date:** 2026-10-20. **Status:** Files generated and structurally validated; no GitHub repository published and no third-party account installation, sharing, agent publishing or Skill activation performed. The Factory requires **no local scripts, CLI, programming or paid APIs from its users**.
+**Release date:** 2026-10-20. **Status:** v1.4.1 branch candidate; source licensing and documentation prepared for review. A v1.4.1 GitHub Release and installed AI agents are not yet verified. The Factory requires **no local scripts, CLI, programming or paid APIs from its users**.
 
 ## Choose your installation edition
 
@@ -43,7 +43,7 @@ For **every requested role** and from **either Factory installation edition**:
 
 ## Share / GitHub publication
 
-[GitHub Repo](https://github.com/robotros/AI-project-kit-factory)
+[GitHub repository](https://github.com/robotros/AI-project-kit-factory) · [MIT License](LICENSE) — Copyright (c) 2026 robotros.
 
 ## Testing and integrity
 
@@ -53,3 +53,5 @@ For **every requested role** and from **either Factory installation edition**:
 
 1. Download the self-contained **ZIP/GitHub-ready package** (this release).
 2. Use **AI-guided installation** with authorized external actions only after explicit approval, or a manual UI walkthrough. Both choices may be used together.
+
+**License:** [MIT](LICENSE). This project is distributed under the MIT License. Keep the copyright and permission notice with redistributed copies.
