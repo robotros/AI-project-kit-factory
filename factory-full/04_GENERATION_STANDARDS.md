@@ -48,7 +48,7 @@ For **each role and both editions**, perform a Skill suitability decision and re
 
 Do not indiscriminately make one Skill per document or per agent; keep role identity in Project instructions and task methods in Skills. If a project cannot load a Skill in its current experience, integrate the reusable procedure into the existing 3/8 canonical reference files while offering the standalone Skill for future eligible platforms. Generated content must be usable through chat and simple uploads without user Python, CLI, coding or paid APIs.
 
-## v1.4.1 Factory-distribution file contract
+## v1.4.2 Factory-distribution file contract
 
 Do not confuse **Factory install artifacts** and **generated specialist kit artifacts**. Factory Light source-of-truth is `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` plus exactly `factory-light/01_CHARTER_AND_DISCOVERY.md`, `02_PLATFORMS_GENERATION_AND_SETUP.md`, `03_GOVERNANCE_VALIDATION_AND_UPDATES.md`. Factory Full source-of-truth is `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` plus exactly the eight `01_FACTORY_CHARTER.md` through `08_GOVERNANCE_AND_UPDATES.md` under `factory-full/` (synchronized with eight root files for older installations). Platform-specific format-converted copies are not additional logical knowledge. Optional Factory Skills have a separate distribution manifest. Whichever Factory edition is installed, every generated specialist role MUST still contain BOTH specialist Light 3 and specialist Full 8, separate role instructions <=7,500 characters, and role-specific Skill suitability decision. Include all actual copy/paste file contents when file generation unavailable.
 
