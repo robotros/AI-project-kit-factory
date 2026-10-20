@@ -62,3 +62,9 @@ Before telling the user to upload a Skill: verify platform, *product surface*, p
 ## v1.4.1 light/full setup router
 
 Read `START_HERE.md` and `AI_SETUP_PROMPT.md`. Determine selected Factory edition **before** choosing reference files. Light: paste `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` and upload exactly the three `.md` files under `factory-light/` (or the three faithful Microsoft `.txt` transport files). Full: paste `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` and upload exactly the eight `.md` under `factory-full/` (or the eight Microsoft `.txt` copies). Match files to edition, do not combine 3+8. For Claude/Gemini/eligible Microsoft native Skills, select explicitly named Light or Full Skill ZIP and verify ZIP import shape. An edition switch on existing project requires backup, explicit user consent, replacement, fresh-session readback and regression tests. Never interpret a ZIP being attached to a chat as installing an agent or Skill.
+
+## Public-repository source fallback (REQ-SETUP-REPO-01)
+
+If the receiving user has **not attached a ZIP**, do not demand one: first try the user-provided public repository URL. For the Factory's own guided setup use `https://github.com/robotros/AI-project-kit-factory` as the documented default; inspect the actual README, manifest, edition sources and setup docs on the accessible default branch or an explicitly selected release. Never guess that a file is accessible. If the host cannot read the repository, identify the precise files needed and request those uploads or pasted contents, one checkpoint at a time. A public repository being readable does not imply GitHub write access or that any agent is installed.
+
+A generated kit's community docs and social preview are opt-in. A social preview requires an authorized GitHub Settings change beyond simply committing a PNG. Never upload, enable templates, connect accounts, or publish without explicit authorization and verified destination capability.
