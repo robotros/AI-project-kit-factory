@@ -24,4 +24,4 @@ Read [Edition selection and migration](setup/EDITION_SELECTION_AND_MIGRATION.md)
 
 ## Publish/validate
 
-Read [README.md](README.md), [KIT_MANIFEST.md](KIT_MANIFEST.md), [GitHub publishing guide](setup/GITHUB_PUBLISHING.md), and [validation report](VALIDATION_REPORT.md). The repository owner chooses any LICENSE and approves publishing. Track `GENERATED_ONLY` vs `USER_CONFIRMED` or `TOOL_VERIFIED`; structural testing is not proof of a live installed agent.
+Read [README.md](README.md), [KIT_MANIFEST.md](KIT_MANIFEST.md), [GitHub publishing guide](setup/GITHUB_PUBLISHING.md), and [validation report](VALIDATION_REPORT.md). The repository includes the [MIT License](LICENSE), Copyright (c) 2026 robotros. Merging and publishing a GitHub Release still require independent approval. Track `GENERATED_ONLY` vs `USER_CONFIRMED` or `TOOL_VERIFIED`; structural testing is not proof of a live installed agent.

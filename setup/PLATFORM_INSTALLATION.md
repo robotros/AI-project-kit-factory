@@ -1,10 +1,10 @@
 # Archived v1.3.1 manual guidance (FULL-only paths below)
 
-> **v1.4 override:** Choose Factory Light or Factory Full first using [EDITION_SELECTION_AND_MIGRATION.md](EDITION_SELECTION_AND_MIGRATION.md). All v1.3.1 references below to “the eight Factory files” describe the **Full** route only. For Light use the canonical 3-file folder and its instructions; Skill ZIP filenames ending v1.3 are historic and should be replaced with the v1.4 Light/Full ZIPs. Always validate actual UI and permissions.
+> **v1.4.1 override:** Choose Factory Light or Factory Full first using [EDITION_SELECTION_AND_MIGRATION.md](EDITION_SELECTION_AND_MIGRATION.md). All v1.3.1 references below to “the eight Factory files” describe the **Full** route only. For Light use the canonical 3-file folder and its instructions; Use the v1.4.1 Light/Full Skill ZIPs in `../distributions/`. Always validate actual UI and permissions.
 
 # Installation router — Factory v1.3
 
-- Claude Projects/Skills: [CLAUDE_INSTALLATION.md](CLAUDE_INSTALLATION.md). Native Claude Skill-only archive is `../distributions/AI_Project_Kit_Factory_Claude_Skill_v1.3.zip`.
+- Claude Projects/Skills: [CLAUDE_INSTALLATION.md](CLAUDE_INSTALLATION.md). For Claude Skills use the appropriate v1.4.1 Light/Full Claude-wrapped ZIP from `../distributions/`.
 - Microsoft 365 Copilot and Copilot Studio: [MICROSOFT_INSTALLATION.md](MICROSOFT_INSTALLATION.md).
 - ChatGPT Projects: see [CHATGPT_INSTALLATION.md](CHATGPT_INSTALLATION.md); back up installed instructions/knowledge first; upload eight numbered updated Factory `.md`, merge `FACTORY_PROJECT_INSTRUCTIONS_ADDENDUM.txt` only if compatible with original instructions and limits; new-chat test.
 - Gemini: follow [GEMINI_INSTALLATION.md](GEMINI_INSTALLATION.md). Grok: follow [GROK_INSTALLATION.md](GROK_INSTALLATION.md); use appropriate adapter from `../03_PLATFORM_PROFILES.md`, verify true persistence and account feature availability, and follow the common evidence/approval gate.

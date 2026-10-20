@@ -1,4 +1,4 @@
-# Manual Microsoft 365 Copilot & Copilot Studio — Factory v1.4
+# Manual Microsoft 365 Copilot & Copilot Studio — Factory v1.4.1
 
 **Microsoft 365 Agent Builder and Copilot Studio are distinct products.** Both depend on organizational tenant policies, maker/agent roles, data governance and potentially licensing. Obtain approval before using enterprise content, connectors, team sharing or publishing. See [Agent Builder knowledge](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-knowledge) and [preview Skills](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-skills).
 

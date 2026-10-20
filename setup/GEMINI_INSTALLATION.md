@@ -1,4 +1,4 @@
-# Manual Gemini installation — Factory v1.4
+# Manual Gemini installation — Factory v1.4.1
 
 Google Gemini supports Gems and a staged rollout of reusable Skills. **Verify current personal/work account capabilities**: Google documentation describes personal-account Skills adoption and a future Gem transition, with Workspace differences. See [Gems](https://support.google.com/gemini/answer/15146780) and [Skills](https://support.google.com/gemini/answer/17094296).
 

@@ -1,4 +1,4 @@
-# Manual Claude installation — Factory v1.4
+# Manual Claude installation — Factory v1.4.1
 
 Claude Projects and Claude Skills are separate persistent objects. Use [edition selection](EDITION_SELECTION_AND_MIGRATION.md) to select **Factory Light 3** or **Factory Full 8**. Claude account/organization plan controls can limit features; verify actual UI rather than assuming Skills enabled.
 
