@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.4.2 — 2026-10-20 — Community, license and repo-first installation
+
+- Rebuilt Factory Light and Full edition installers plus their four native Skill ZIPs with the merged new-kit licensing and community-file prompts.
+- Generated kits must ask for an owner-selected license, not inherit this Factory's MIT notice; optional GitHub social previews remain under 1 MB and community documents are opt-in.
+- AI setup works from the public Factory repository when no ZIP is provided; precise missing-file fallback and authorization/readback requirements remain.
+- Preserved Factory Light (3) and Full (8) knowledge sets, independent specialist editions, trusted source and human approval rules.
+- Regenerated versioned manifests and QA. GitHub merge, tag/release publication, native Skill activation and external agent setup remain separate approval/verification steps.
+
 ## Unreleased — generated-kit licensing and GitHub community options
 
 - Proposed /new-kit license-selection prompt for **each generated kit**, with opt-in permissive/copyleft/proprietary/undecided paths and no inherited Factory MIT assumption.
