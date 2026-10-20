@@ -1,3 +1,7 @@
+# Archived v1.3.1 manual guidance (FULL-only paths below)
+
+> **v1.4 override:** Choose Factory Light or Factory Full first using [EDITION_SELECTION_AND_MIGRATION.md](EDITION_SELECTION_AND_MIGRATION.md). All v1.3.1 references below to “the eight Factory files” describe the **Full** route only. For Light use the canonical 3-file folder and its instructions; Skill ZIP filenames ending v1.3 are historic and should be replaced with the v1.4 Light/Full ZIPs. Always validate actual UI and permissions.
+
 # Installation router — Factory v1.3
 
 - Claude Projects/Skills: [CLAUDE_INSTALLATION.md](CLAUDE_INSTALLATION.md). Native Claude Skill-only archive is `../distributions/AI_Project_Kit_Factory_Claude_Skill_v1.3.zip`.

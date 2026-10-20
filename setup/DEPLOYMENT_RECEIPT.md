@@ -1,28 +1,25 @@
-# Deployment receipt (blank) — do not pre-mark success
+# Factory v1.4 deployment receipt (fill only after actual evidence)
 
-| Field | Record after actual evidence |
+| Field | Value to capture |
 |---|---|
-| Kit / version | AI Project Kit Factory v1.3 |
-| Target provider/object | [Claude Project / Claude Skill / Microsoft Agent Builder / Copilot Studio / ChatGPT / Gemini / Grok] |
-| Target object name/ID | NEEDS_VERIFICATION |
-| Installation executor | [User / authenticated tool / not attempted] |
-| User consent, including scope | NEEDS_VERIFICATION |
-| Project instructions saved? | NEEDS_VERIFICATION |
-| Knowledge attached / reference list | NEEDS_VERIFICATION |
-| Claude Skill-only ZIP filename / SHA-256 | NEEDS_VERIFICATION |
-| Claude Skill visible and enabled? | NEEDS_VERIFICATION |
-| Microsoft environment/harness/channel (if relevant) | NOT_APPLICABLE / NEEDS_VERIFICATION |
-| Source permissions, privacy, sharing | NEEDS_VERIFICATION |
-| Fresh-context positive + negative tests | NEEDS_VERIFICATION |
-| Behavior evidence type | [User-confirmed / tool-readback / not observed] |
-| Defects, owner, retest | NEEDS_VERIFICATION |
-| Final human approval | NEEDS_VERIFICATION |
-| Package / installation / behavior status | CREATED / NEEDS_VERIFICATION / NEEDS_VERIFICATION |
+| Package version | v1.4 |
+| Factory edition | LIGHT (3) / FULL (8) — NEEDS_VERIFICATION |
+| Host AI platform / account class / environment | NEEDS_VERIFICATION |
+| Project, Gem, Bot or agent name/link | NEEDS_VERIFICATION |
+| Consent, owner and visibility | NEEDS_VERIFICATION |
+| Instructions file chosen and saved character count | NEEDS_VERIFICATION |
+| Exactly 3 or 8 saved knowledge references, names | NEEDS_VERIFICATION |
+| Format copies used? e.g. Microsoft `.txt` | NEEDS_VERIFICATION |
+| Skills supported by real account? | NEEDS_VERIFICATION |
+| Separate Skill package/hash and installed state | NOT_APPLICABLE / NEEDS_VERIFICATION |
+| Native Skill trigger / unrelated non-trigger | NOT_APPLICABLE / NEEDS_VERIFICATION |
+| Fresh chat BOTH specialist Light/Full generation | NEEDS_VERIFICATION |
+| Missing-data, injection, denied action test | NEEDS_VERIFICATION |
+| Cross-role handoff and privacy tests | NEEDS_VERIFICATION |
+| Test severity and defects / corrections | NEEDS_VERIFICATION |
+| Installation evidence | GENERATED_ONLY / USER_CONFIRMED / TOOL_VERIFIED |
+| Behavior evidence | NOT_TESTED / OPERATIONALLY_TESTED |
+| Rollback backup path and approver | NEEDS_VERIFICATION |
+| Overall | Artifact PASS/FAIL; installation NEEDS_VERIFICATION; behavior NEEDS_VERIFICATION |
 
-Use this template separately for each distinct persistent object. Generating a package only supports **CREATED**, not an account installation. Keep screenshots or source excerpts redacted.
-
-## v1.3 Skill deployment fields
-
-`skill_name | role | edition | bundle_hash | native_surface_or_fallback | project_or_agent_attached_to | scope | allowed_tools | installed_state | test_positive | test_nontrigger | human_approval | evidence_type | version | rollback`.
-
-Track each Project/agent and Skill independently. Skill generation is not import/activation, Project upload is not Skill installation, Studio draft is not publish and GitHub ZIP is not live publication.
+Use independent receipts for Project/agent and Skill when both are installed. Never pre-mark an account installation as PASS. If upgrading v1.3.1, document the entire replaced knowledge set, not an add-on three-file upload. Share redacted findings only.

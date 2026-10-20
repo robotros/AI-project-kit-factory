@@ -1,30 +1,23 @@
-# Change log
+# Changelog
 
-## v1.3.1 — 2026-10-20 (GitHub and conversational-setup patch)
+## v1.4 — 2026-10-20 — dual installable Factory editions
 
-- Added `START_HERE.md`, no-placeholders `AI_SETUP_PROMPT.md` with a one-question-at-a-time interactive installation wizard, individual ChatGPT/Gemini/Grok manual guides, browser-only GitHub publishing guide, and wizard QA cases.
-- Updated README and setup routers for direct GitHub navigation, clear manual-versus-AI paths, permission gates, readback and live validation reporting.
-- Added `.gitignore` and explicit owner-selected LICENSE policy; no unapproved license or invented repository URL.
-- Preserved **unchanged** the eight v1.3 core Factory knowledge files, Microsoft transport copies, skill source trees and v1.3 native Skill ZIP payloads; this patch changes onboarding documentation only.
-- This release remains GENERATED_ONLY; no GitHub publication or actual account installation is claimed.
+- **NEW** Factory Light: exactly 3 complete consolidated `.md` references and separate <=7,500-character instructions, with same supported six commands and all platform/workflow/QA/governance capabilities.
+- **PRESERVED + EXTENDED** Factory Full: existing 8 detailed Factory knowledge references, with v1.4 Factory-vs-specialist edition disambiguation and parity/test rules. Synchronized eight root legacy files and `factory-full/` sources.
+- **UNCHANGED specialist contract** from either Factory: generate BOTH specialist Light 3 and specialist Full 8, with separate role instructions and optional Skill decisions.
+- **NEW** distinct Factory Light and Full native Skill source folders and four upload ZIPs (Claude-wrapped and root-import per edition). Separate from project knowledge and subject to provider eligibility.
+- **NEW** edition-aware Microsoft `.txt` knowledge mirrors, edition selection/migration guide, quick platform matrix, installer wizard and regression cases.
+- **UPDATED** README, START_HERE, AI_SETUP_PROMPT, docs links, manifest, QA. Users never need scripts/CLI/API keys. No public license chosen, no GitHub publish or provider install claimed.
+- Earlier v1.3.1 launch assets, notes and manual setup guidance remain included where useful, with v1.4 override headings for edition routing.
 
+## v1.3.1 — 2026-10-20
+
+GitHub/AI-guided setup documentation patch; introduced conversational first-run installer, manual platform guides, GitHub publishing guide and validation checks. Full Factory only.
 
 ## v1.3 — 2026-10-20
 
-- Expanded **all eight** Factory core files for dual Project/agent + task-specific Skill architecture; unchanged per-role Light 3 and Full 8 source count/<=7,500-char instructions requirement.
-- Added ChatGPT native Skills for eligible Business/Enterprise/Healthcare/Edu workspaces, with personal-account Project fallback and GPT retirement notice.
-- Added native Skills packaging for **Microsoft 365 Copilot Agent Builder Frontier preview** and **Copilot Studio GitHub Copilot-harness** agents, distinguished from standard-harness and legacy bot Skills.
-- Added native **Gemini Skills** packaging while preserving Gems through the official account-specific transition periods; retained Grok Projects/Skills/Bots with import-verification gate.
-- Preserved Claude Projects/Skills, both Claude and root-SKILL ZIP forms, true `.txt` Microsoft knowledge-copy parity, enterprise approval boundaries, versioned QA and separate deployment receipts.
-- Added platform matrix, official-source list, portable Skill generation template and cross-platform tests/setup.
-- Removed stale v1.2 distribution ZIP from this release; new v1.3 archives generated from revised references.
+Support for optional, separately packaged native Skills on supported ChatGPT/Claude/Gemini/Grok/Microsoft surfaces; project/agent outputs remain independent of Skill status.
 
-## v1.2 — 2026-10-19
+## v1.2 and v1.1 — earlier releases
 
-Claude Projects + native Claude Skills; all prior Microsoft adapters maintained.
-
-## v1.1 — 2026-10-19
-
-Microsoft 365 Copilot Agent Builder and Copilot Studio added.
-
-**Rollback:** Reinstall the prior release's eight numbered references and its saved instruction fields; if Skills were previously installed, reupload prior Skill ZIPs and re-run activation tests. Restoring files alone does not update previously deployed objects. Never overwrite or publish in an external account without approval.
+Claude Projects/Skills and Microsoft 365 Copilot/Copilot Studio support added in prior versions. History is summarized here; versioned release archives are separate.

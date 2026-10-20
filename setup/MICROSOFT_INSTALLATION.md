@@ -1,41 +1,21 @@
-# Installation walkthrough — Microsoft 365 Copilot and Copilot Studio
+# Manual Microsoft 365 Copilot & Copilot Studio — Factory v1.4
 
-Status when packaged: **GENERATED_ONLY**. No Microsoft account or agent was accessed or changed.
+**Microsoft 365 Agent Builder and Copilot Studio are distinct products.** Both depend on organizational tenant policies, maker/agent roles, data governance and potentially licensing. Obtain approval before using enterprise content, connectors, team sharing or publishing. See [Agent Builder knowledge](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-knowledge) and [preview Skills](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-skills).
 
-## Choose what you are installing
+## Agent Builder
 
-**A. The Factory itself** — use all eight core Factory knowledge files and `setup/FACTORY_AGENT_INSTRUCTIONS_MICROSOFT.txt`.
+1. Choose **Factory Light (3)** or **Factory Full (8)**; back up any existing agent instructions and knowledge.
+2. In Microsoft 365 Copilot Agent Builder, create/open an agent through actual tenant-authorized controls. Paste `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` or `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` into agent instructions.
+3. Under knowledge upload only matching **3** or **8** `.txt` transport copies from `adapters/microsoft-365-agent-builder/light/` or `/full/`. They contain the same text as canonical `.md` but use a compatible transport format where the embedded knowledge UI doesn't accept `.md`.
+4. Preview in a fresh agent chat. Confirm saved instructions, actual knowledge files, private audience and access scope. Run both-specialist-editions, missing facts and denied-action tests.
+5. **Optional preview Skills:** only if the tenant actually has the relevant Frontier preview and supports Skill import, use the matching `...Light_Root_Skill_v1.4.zip` or Full root archive and independently test trigger/non-trigger. Do not claim Skills are available in all Microsoft tenants.
 
-**B. One specialist that the Factory generated** — use that specialist's own Light or Full role instructions, plus exactly 3 or 8 matching knowledge files. Do **not** mistakenly upload the Factory's eight governance docs into a specialist as role knowledge.
+## Copilot Studio
 
-## Microsoft 365 Copilot Agent Builder (web / desktop)
+1. Confirm Power Platform environment, maker permissions, acceptable knowledge source type, data-loss prevention rules, harness and desired distribution channel before editing.
+2. Create/open an agent via approved Copilot Studio UI. Use the matching Factory Light/Full instruction text and add the selected 3/8 canonical `.md` knowledge documents where accepted; if the UI requires a different upload/transport, verify rather than assuming.
+3. Configure connectors, actions/flows, authentication and permissions **separately**. A Skill's text does not create an actual connector. Native Skills are harness/feature-dependent, not synonymous with existing topics or legacy bot Skills.
+4. Test in Studio before asking permission to publish to Teams, Microsoft 365 Copilot or other channels; deployment/audience requires a separate approval and verification.
+5. Record generated artifacts, actual saved agent readback, fresh-test evidence and any publishing separately. If the environment does not support all references, document a fallback and `NEEDS_VERIFICATION`.
 
-1. Confirm your organization enabled Agent Builder; inspect license/tenant policy, intended sharing audience, allowed knowledge classification. Open Microsoft 365 Copilot on the desktop/web; find `New agent` and select `Skip to configure`.
-2. Set agent name/description. Copy `PROJECT_INSTRUCTIONS.txt` (specialist) or `FACTORY_AGENT_INSTRUCTIONS_MICROSOFT.txt` (Factory itself) into `Instructions`. Target <=7,500 characters. Add representative starter prompts.
-3. Under `Knowledge`, upload the same role/edition's 3 or 8 **`.txt` adapter copies** from `adapters/microsoft-365-agent-builder/` (or the Factory's eight adapter copies provided here). Do not upload the `.md` files as embedded knowledge, since `.md` is not listed among accepted embedded types.
-4. Check sources are finished preparing and try a grounded question in `Try it`. Verify instructions did not truncate and the agent refuses unapproved actions.
-5. Create privately first. Record its name, identity/link if visible, file names, tests and user confirmation. Do not share until reviewing embedded content exposure and admin policies. If sharing is approved, verify recipient access with a separate test.
-6. If file uploads or agent creation are blocked, capture the UI error without account secrets, mark `NEEDS_VERIFICATION`, and use a one-chat fallback with no persistence guarantee.
-
-## Copilot Studio (no-code standard harness reference route)
-
-1. Confirm signed-in Copilot Studio maker account, entitlement/credit model, environment, DLP and data classifications; choose the **standard harness** if it covers required flows/tools. For other harnesses, validate the actual UI and adjust this walkthrough.
-2. Create a new agent in the right environment; set name/description. Paste the same role's instructions (or Factory instructions) in the agent's `Instructions` field.
-3. Add role Light 3 / Full 8 native `.md` files as `Knowledge` (or eight Factory `.md` when installing the Factory itself). Add descriptive source names. Verify each is indexed/usable. Do not assume other enterprise sources are available without configuration.
-4. Only where needed, add the separately approved tools, connectors, flows, triggers, topics or other agents; configure credentials via Microsoft's authenticated UI, never chat. Restrict external writes to required scopes and human review. Configure Entra ID authentication, environment controls, and intended access policies.
-5. Test a grounded question, missing data, injected knowledge command, denied permission, unsafe external write, and required human approval. Record results and obtain approval to publish.
-6. Publish agent; then separately select and configure the Microsoft 365 Copilot/Teams channel or other target channel if supported. Publishing alone does not prove user distribution. Verify with a target-user test that actual agent and knowledge access works.
-7. Save receipt `role, edition, version, environment, harness, agent name/ID, uploaded knowledge, configured sources/tools, authentication, saved/draft/published status, channel, owner, user-visible verification, blockers, approval`.
-
-## Installation evidence vocabulary
-
-- `CREATED_PACKAGE`: files really exist; deployment unverified.
-- `GENERATED_ONLY`: text instructions/knowledge prepared, no object known.
-- `USER_CONFIRMED`: user witnessed and reported account state; attach date/context, not a claim of tool verification.
-- `TOOL_VERIFIED`: authenticated write and readback of named objects, instructions and files.
-- `OPERATIONALLY_TESTED`: fresh saved-agent session produced documented behavior, not just text review.
-- `NEEDS_VERIFICATION`: missing authenticated/user evidence; especially tenant/license and publishing checks.
-
-## Rollback
-
-Backup before replacing an existing agent's instructions and knowledge. Restore earlier content and remove new sources only after approval. Studio changes may require republishing and renewed channel/user verification. ChatGPT Factory rollback is restore the prior eight numbered files and instructions.
+Neither path shares state with another agent unless an authenticated integration or human handoff is configured. No CLI, API keys or scripts required.

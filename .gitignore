@@ -1,7 +1,7 @@
-# Optional Git hygiene: archive outputs are intentionally tracked under distributions/
 .DS_Store
 Thumbs.db
-*.swp
-*.swo
-*~
 __pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

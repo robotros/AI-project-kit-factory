@@ -1,33 +1,27 @@
-# Start here — choose manual or guided AI installation
+# START HERE — Factory v1.4 (Light and Full)
 
-This is the **AI Project Kit Factory v1.3.1 release** (core files and native Skill archives are v1.3). It generates specialist projects/agents and optional reusable Skills across multiple AI assistants. Downloading or uploading this repository does not itself install the Factory in an AI account.
+This is a shareable, GitHub-ready release of the **AI Project Kit Factory**, not an already-installed agent, published repository or automatically activated Skill. It generates BOTH specialist Light and specialist Full kits from **either** Factory installation edition.
 
-## Path A — AI-guided setup (recommended)
+## Fastest route — AI-guided setup
 
-1. Open [AI_SETUP_PROMPT.md](AI_SETUP_PROMPT.md).
-2. Copy the **SETUP WIZARD PROMPT** into the AI assistant you want to use. **No placeholders to fill out.**
-3. The assistant will ask you what platform to install into if it cannot reliably identify it; it should ask one question at a time.
-4. Give the assistant the release ZIP or repository URL **only if it can really read it**. Otherwise upload `README.md`, the eight numbered files, `KIT_MANIFEST.md`, and the requested platform guide. There are no credentials or local commands.
-5. Let it guide you through **one native UI step at a time**, confirm each successful step, and run the fresh-chat tests. The assistant must ask before changing external account objects or granting permissions.
-6. Record live outcomes using [deployment receipt](setup/DEPLOYMENT_RECEIPT.md). Nothing counts as installed until independently verified.
+1. Open [AI_SETUP_PROMPT.md](AI_SETUP_PROMPT.md). Copy the entire **SETUP WIZARD PROMPT** into ChatGPT, Claude, Gemini, Grok, Microsoft 365 Copilot, Copilot Studio or another supported AI. No placeholders to edit.
+2. Attach this ZIP, accessible repo link, or files the assistant requests. It must acknowledge which files it can actually read.
+3. Answer the assistant's short questions about destination and whether you prefer **Factory Light (3 files)** or **Factory Full (8 files)**. For limited accounts the assistant should recommend Light but confirm. Choose a persistent Project/agent or optional native Skill depending on the real UI.
+4. Approve any change to an account object. Follow one UI step at a time; the assistant must validate saved state and tests in a fresh chat.
 
-## Path B — manual setup
+## Manual setup
 
-| My AI | Manual guide | Native Skill? |
-|---|---|---|
-| ChatGPT | [ChatGPT Projects](setup/CHATGPT_INSTALLATION.md) | Workspace/feature-specific; otherwise Project fallback |
-| Claude | [Claude Project + Skill](setup/CLAUDE_INSTALLATION.md) | Separate Claude Skill ZIP where enabled |
-| Gemini | [Gemini Skills + Gems](setup/GEMINI_INSTALLATION.md) | Use Skills where available, Gem otherwise |
-| Grok | [Grok Project + Skills/Bot](setup/GROK_INSTALLATION.md) | Confirm actual import/enablement UI |
-| Microsoft 365 Copilot | [Microsoft installation](setup/MICROSOFT_INSTALLATION.md) | Eligible Agent Builder feature/tenant only |
-| Copilot Studio | [Microsoft installation](setup/MICROSOFT_INSTALLATION.md) | Verify agent harness and native Skill availability |
+Read [Edition selection and migration](setup/EDITION_SELECTION_AND_MIGRATION.md), then select the guide for [ChatGPT](setup/CHATGPT_INSTALLATION.md), [Claude](setup/CLAUDE_INSTALLATION.md), [Gemini](setup/GEMINI_INSTALLATION.md), [Grok](setup/GROK_INSTALLATION.md), or [Microsoft 365 Copilot / Copilot Studio](setup/MICROSOFT_INSTALLATION.md). Copy the appropriate `FACTORY_INSTRUCTIONS_*.txt` into the product's instructions field and add **exactly** its three/eight Factory knowledge references, converted only where the destination requires it.
 
-The Factory itself has **eight knowledge files** `01_...md` to `08_...md`. A generated *specialist* has a Light edition with **three** role reference uploads and a Full edition with **eight**, plus instruction text. Those are different installations.
+## Files you need
 
-## Before uploading to GitHub
+| Install | Instructions | Markdown knowledge folder | Optional Skill ZIPs |
+|---|---|---|---|
+| **Factory Light** | `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` | `factory-light/` — 3 Markdown files | `distributions/*Light*Skill_v1.4.zip` |
+| **Factory Full** | `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` | `factory-full/` — 8 Markdown files | `distributions/*Full*Skill_v1.4.zip` |
 
-Read [GitHub publishing without command-line tools](setup/GITHUB_PUBLISHING.md). The ZIP is **GitHub-ready, not GitHub-published**. Public GitHub repositories make your files publicly readable. Confirm content classification and choose a license yourself if you want to grant reuse rights.
+**Do not upload** the separate Skill ZIP as another project knowledge file or upload the whole GitHub ZIP as a Skill. Skills are feature-gated. A Light Factory still generates BOTH **specialist** editions (3 and 8 knowledge files).
 
-## Verification
+## Publish/validate
 
-Use the [cross-platform test prompts](setup/CROSS_PLATFORM_TEST_PROMPTS.md) and [validation report](VALIDATION_REPORT.md). The report covers packaging; it does **not** claim live agent/Skill installation. After setup, record your results in [deployment receipt](setup/DEPLOYMENT_RECEIPT.md).
+Read [README.md](README.md), [KIT_MANIFEST.md](KIT_MANIFEST.md), [GitHub publishing guide](setup/GITHUB_PUBLISHING.md), and [validation report](VALIDATION_REPORT.md). The repository owner chooses any LICENSE and approves publishing. Track `GENERATED_ONLY` vs `USER_CONFIRMED` or `TOOL_VERIFIED`; structural testing is not proof of a live installed agent.

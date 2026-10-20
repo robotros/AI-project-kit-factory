@@ -1,20 +1,12 @@
-# Manual ChatGPT setup — Factory Project + optional Skills
+# Manual ChatGPT installation — Factory v1.4
 
-**Applies to:** ChatGPT Projects. Plan availability, Project UI fields and native Skills eligibility can vary. Do not assume personal accounts have the same Skills interface as eligible organizational workspaces.
+Use ChatGPT **Projects** for the persistent Factory. This guide does **not** claim that personal ChatGPT accounts support uploadable native Skills. See the current [OpenAI Projects guide](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) and actual UI for account file limits.
 
-## Factory Project
+1. Choose **Factory Light (3)** or **Factory Full (8)** using [edition selection](EDITION_SELECTION_AND_MIGRATION.md). Factory Light is complete and can still generate both specialist editions.
+2. For an upgrade, copy existing Project instructions and back up existing Factory reference files before changing anything.
+3. Open ChatGPT, create a Project or open your existing Factory Project, and locate its Project Instructions field. Paste **exactly one** of `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` or `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` (not the whole README).
+4. In Project knowledge/files upload ONLY the three `.md` files from `factory-light/` OR the eight `.md` files from `factory-full/`. Do not mix editions or upload Skill ZIP as an additional knowledge file.
+5. Confirm saved instructions and exact filenames in the Project. In a fresh Project chat ask: `From this Factory configuration, what should /new-kit produce for BOTH specialist Light and specialist Full for one fictional library catalog reviewer?` Expected: three and eight canonical specialist `.md` knowledge files, separate instruction fields, a prompt library and evidence-based QA.
+6. Test ungrounded sources and denied external actions with [cross-platform tests](CROSS_PLATFORM_TEST_PROMPTS.md); save observed outcomes and evidence in [deployment receipt](DEPLOYMENT_RECEIPT.md).
 
-1. Back up any existing Factory Project instructions and its current knowledge files before updating. For a new installation, open ChatGPT and create a new **Project**; give it a descriptive name such as `AI Project Kit Factory`.
-2. Find the Project's **Instructions** setting. Paste the full contents of `adapters/chatgpt-project/FACTORY_PROJECT_INSTRUCTIONS_CHATGPT.txt` (new install). On an existing Project, compare the existing instructions against the new file first; do not blindly paste the addendum on top if that makes it contradictory or exceeds supported limits.
-3. In Project files/knowledge, upload the **eight numbered `.md` files from the release root** (`01_FACTORY_CHARTER.md` through `08_GOVERNANCE_AND_UPDATES.md`). These eight belong to installing the Factory, not a generated Light kit.
-4. Confirm all eight file names in the Project and that the instruction text is saved. If a file cap or upload error occurs, stop, report the actual limitation, and choose a smaller/manual reference strategy instead of falsely claiming a complete install.
-5. Open a **fresh chat in that Project** and ask: `Show which Factory knowledge files are available, then produce a brief /new-kit discovery interview for a fictional library catalog quality reviewer. Do not invent missing goals.`
-6. Test missing facts and denied publication using `setup/CROSS_PLATFORM_TEST_PROMPTS.md`. Record observed outputs in `setup/DEPLOYMENT_RECEIPT.md`. Project creation and file attachment must be confirmed by you or an authorized readback tool.
-
-## Optional native Skills
-
-Only if your actual ChatGPT workspace documents and exposes native Skills: inspect the current Skills feature under supported settings/Plugins, use the source folder `adapters/portable-skill/ai-project-kit-factory/` or whichever import form its UI supports, and verify successful import **and** activation. Do not assume the Claude ZIP or root-SKILL ZIP will work in ChatGPT without UI acceptance. If Skills are not available, the Project remains functional; reusable procedures can live in its knowledge and prompt library without pretending a native Skill was installed.
-
-## Upgrade & rollback
-
-Keep previous instruction text, previous 8 reference files, and any installed Skill package. Replace one object only after approval. In a failed upgrade, restore the previous files/instructions and rerun fresh-chat tests. Do not assume a Project update automatically updates separate Skills.
+**Optional Skills:** Only use native Skills if the *actual workspace* shows eligible import/create controls. Check accepted ZIP structure and separately test activation; Project files alone do not activate a Skill. Otherwise keep reusable procedures in Project knowledge. For rollback restore prior instructions and the complete prior reference set; never mix revisions. No scripts or API keys required.

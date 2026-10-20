@@ -1,38 +1,66 @@
-# AI Project Kit Factory v1.3.1 — release audit
+# Factory v1.4 validation report
 
-**Audit date:** 2026-10-20. **Scope:** locally generated release directory, canonical files, Markdown links, source parity, Skill archives, Git staging smoke test, and written install-wizard contract. **Not in scope:** a security audit, live AI conversation execution, private account setup, provider UI feature availability, GitHub publishing or Skill activation.
+**Artifact status:** PASS (static checks only). **Installation:** NEEDS_VERIFICATION. **Operational behavior/Skill triggers:** NEEDS_VERIFICATION.
 
-| ID | Audit item | Result | Evidence |
-|---|---|---|---|
-| S01 | Eight numbered core knowledge files | PASS | Exactly eight at root; SHA256-equivalent/byte-identical to Factory v1.3 release |
-| S02 | Original Light/Full role counts | PASS (static policy) | Core specification still mandates exactly 3/8 role reference files plus separate <=7,500-character instructions; no specialist sample kit added |
-| S03 | Microsoft knowledge transport | PASS | All eight `.txt` files equal corresponding root `.md` content byte-for-byte |
-| S04 | Claude Skill reference parity | PASS | Eight Claude Skill references equal eight root Factory files byte-for-byte |
-| S05 | Portable Skill reference parity | PASS | Eight portable Skill references equal eight root Factory files byte-for-byte |
-| S06 | Native Skill archive preservation | PASS | Both v1.3 archives unchanged in v1.3.1 documentation patch |
-| S07 | Native ZIP structure/integrity | PASS | Two archives open without CRC failure; each has nine files including `SKILL.md`, no traversal paths |
-| S08 | Factory instruction budgets | PASS | ChatGPT 2,525; Claude 4,591; Microsoft 3,993; addendum 2,168 characters, each <=7,500 |
-| S09 | Root README and quick-start | PASS | `README.md`, `START_HERE.md`, updated no-placeholder `AI_SETUP_PROMPT.md` |
-| S10 | Manual platform coverage | PASS (document presence) | ChatGPT, Claude, Gemini, Grok, M365 Copilot/Copilot Studio manuals, plus common router |
-| S11 | AI-guided wizard text | PASS (static contract only) | Asks or detects target platform; one question at a time, one UI action per reply, permission checkpoint, positive/negative/live test instructions, evidence receipt |
-| S12 | Wizard test cases | PASS (document presence) | W01–W10 present in `setup/INSTALL_WIZARD_TESTS.md`; no live responses observed |
-| S13 | Relative Markdown links | PASS | All internal Markdown relative file links resolve in the release filesystem |
-| S14 | GitHub publishing without CLI | PASS (document presence) | GitHub browser-only instructions, privacy review, repository readback checklist; no fictitious URL |
-| S15 | License treatment | PASS (transparent limitation) | No arbitrary license asserted; owner must select redistribution terms |
-| S16 | Content/access separation | PASS (static documentation) | Generated ZIP distinct from installed Project/Gem/Skill, credentials prohibited, explicit external-change permission, rollback and deployment receipt |
-| S17 | Git staging readiness | PASS | Temporary local git staging test succeeded with all release files (not a remote publication) |
-| L01 | Live setup-wizard interview W01–W10 | NEEDS_VERIFICATION | Must paste prompt into each destination and inspect actual AI interaction |
-| L02 | Account Project/Gem/agent installation | NEEDS_VERIFICATION | No authorized account writes or readback performed |
-| L03 | Native Skill upload/activation/trigger | NEEDS_VERIFICATION | Archive structure does not prove account feature or working runtime |
-| L04 | GitHub public/private repository publication | NEEDS_VERIFICATION | No GitHub repository created; URL remains placeholder |
-| L05 | Security/PII audit | NEEDS_VERIFICATION | Presence/integrity checks do not establish a complete security review |
+**Evidence:** release file counts and instruction character lengths computed from saved files; SHA-256 and ZIP members tested. Textual policies reviewed, not tested inside target AI accounts. This is not a security audit.
 
-**Severity:** No unresolved **static packaging** defect found. **Medium deployment risk:** plan/tenant/harness restrictions and live provider UI behavior require in-account verification. **Licensing decision:** choose a repository license only with owner authorization. Distinguish content QA from operational/provider/security validation.
+Factory Light: **3 Markdown knowledge files**, 3,105 instruction characters. Factory Full: **8 Markdown knowledge files**, 3,822 instruction characters. Either edition produces BOTH specialist Light and Full.
 
-## Release checklist for a future installer
+**Static checks: 37/37 PASS.**
 
-1. Unpack release (or browse repo); open `START_HERE.md`.
-2. Use `AI_SETUP_PROMPT.md` for interactive flow; verify it begins by asking the appropriate platform question.
-3. Do not upload the outer release ZIP as a native Skill. For Claude use the **Claude-wrapped** Skill ZIP. For eligible Gemini/Microsoft use the root-`SKILL.md` archive. Grok/ChatGPT use actual supported import workflows where available.
-4. Ask user or tool to confirm saved object and list of attached knowledge files. Run relevant tests in `setup/CROSS_PLATFORM_TEST_PROMPTS.md` and `setup/INSTALL_WIZARD_TESTS.md`.
-5. Record actual observations in `setup/DEPLOYMENT_RECEIPT.md`. Keep live states `NEEDS_VERIFICATION` until proven.
+| Check | Result | Evidence |
+|---|---|---|
+| A01-LIGHT_COUNT | PASS | 3 Factory Light Markdown references |
+| A02-FULL_COUNT | PASS | 8 Factory Full Markdown references |
+| A03-INSTRUCTIONS | PASS | Factory Light instructions 3105 chars; Full 3822 chars |
+| A04-FULL_ROOT_PARITY | PASS | All eight legacy root files byte-identical to factory-full/ |
+| A05-LIGHT_COMMANDS | PASS | All six command shortcuts in light instructions |
+| A06-LIGHT_PLATFORMS | PASS | All six named supported product/platform destinations |
+| A07-LIGHT_SPECIALIST_CONTRACT | PASS | Both specialist edition contracts documented |
+| A08-LIGHT_SAFETY | PASS | Human approval, privacy, handoffs, evidence and Skills covered |
+| A09-LIGHT_M365_TRANSPORT | PASS | 3 Microsoft text-copy knowledge files byte-exact |
+| A05-FULL_COMMANDS | PASS | All six command shortcuts in full instructions |
+| A06-FULL_PLATFORMS | PASS | All six named supported product/platform destinations |
+| A07-FULL_SPECIALIST_CONTRACT | PASS | Both specialist edition contracts documented |
+| A08-FULL_SAFETY | PASS | Human approval, privacy, handoffs, evidence and Skills covered |
+| A09-FULL_M365_TRANSPORT | PASS | 8 Microsoft text-copy knowledge files byte-exact |
+| A10-LEGACY_M365_COPY_PARITY | PASS | 8 backward compatible Microsoft copies mirror Full |
+| S01-LIGHT_META | PASS | Valid simple YAML frontmatter with name-matched folder + description |
+| S02-LIGHT_REFERENCE_PARITY | PASS | 3 skill reference files exactly match canonical Factory edition |
+| S03-LIGHT_CLAUDE | PASS | Claude archive integrity, shape, paths and reference parity |
+| S03-LIGHT_ROOT | PASS | Root archive integrity, shape, paths and reference parity |
+| S01-FULL_META | PASS | Valid simple YAML frontmatter with name-matched folder + description |
+| S02-FULL_REFERENCE_PARITY | PASS | 8 skill reference files exactly match canonical Factory edition |
+| S03-FULL_CLAUDE | PASS | Claude archive integrity, shape, paths and reference parity |
+| S03-FULL_ROOT | PASS | Root archive integrity, shape, paths and reference parity |
+| D01-LIGHT_INSTALL_BUNDLE | PASS | Independent GitHub-ready install ZIP with edition files, wizard and file hashes |
+| D01-FULL_INSTALL_BUNDLE | PASS | Independent GitHub-ready install ZIP with edition files, wizard and file hashes |
+| D02-MARKDOWN_LINKS | PASS | Broken links: [] |
+| D03-INSTALLER_WIZARD | PASS | Wizard selects edition, routes platforms and tests |
+| D04-DOCUMENTATION | PASS | README/Start/manifest route to both editions |
+| D05-NO_EXEC_SECRETS | PASS | No bundled runnable scripts/credential files: [] |
+| D06-SKILL_NOT_REPO_ZIP | PASS | Factory Skill ZIP is standalone; main repo ZIP separate |
+| Q-T1-BOTH_SPECIALIST | PASS | STATIC textual rule verified in Factory instructions/reference; no live model test |
+| Q-T2-MISSING_EVIDENCE | PASS | STATIC textual rule verified in Factory instructions/reference; no live model test |
+| Q-T3-INJECTION | PASS | STATIC textual rule verified in Factory instructions/reference; no live model test |
+| Q-T4-UNAUTHORIZED_WRITE | PASS | STATIC textual rule verified in Factory instructions/reference; no live model test |
+| Q-T5-CROSS_PROJECT | PASS | STATIC textual rule verified in Factory instructions/reference; no live model test |
+| Q-T6-SKILL_FALLBACK | PASS | STATIC textual rule verified in Factory instructions/reference; no live model test |
+| Q-T7-MIGRATION | PASS | STATIC textual rule verified in Factory instructions/reference; no live model test |
+
+## Role-behavior scenario review (text-only)
+
+The T1–T7 text tests above confirm that the Factory **instructs** the expected behavior for normal specialist Light+Full output, missing facts, injection, denied action, cross-role state, Skill fallback and migration. These are not model output simulations or in-account tests. Run the fresh-session scenarios in `setup/CROSS_PLATFORM_TEST_PROMPTS.md` for actual evidence.
+
+## Still needs live verification
+
+- Installing Factory Light in a real account and reading back exactly three saved knowledge references and instructions.
+- Installing Factory Full in a real account and reading back exactly eight saved references.
+- Both installed editions generating both specialist editions on a fresh input and refusing injected/unauthorized changes.
+- Importing either Skill ZIP on a supported eligible platform; positive trigger and unrelated non-trigger.
+- GitHub repository creation, permissions, access, and download links (not claimed).
+
+## Release gates
+
+No unresolved static Critical/High failure
+External account mutation, publishing and real-world security review were not performed. Owner must approve consequential changes and verify real installations.

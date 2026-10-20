@@ -18,3 +18,13 @@ References below support the **current capability matrix**, not claims of instal
 - Copilot Studio legacy skills (DIFFERENT type): https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-add-skills
 
 These URLs are informational; an environment's plan, rollout, data policy, tenant permissions and feature flags still require destination verification. Avoid inventing billing or exact platform quotas not verified in these sources.
+
+## v1.4 source checks — 2026-10-20
+
+- OpenAI Projects: https://help.openai.com/en/articles/10169521-projects-in-chatgpt — official Project limits currently list Free 5 / Go and Plus 25 / Edu, Pro, Business, Enterprise 40 files per Project; verify live account UI and upload state.
+- Google Gemini Skills: https://support.google.com/gemini/answer/17094296 — staged Skills rollout and file/folder SKILL.md import for eligible personal accounts; Workspace availability differs.
+- Google Gems: https://support.google.com/gemini/answer/15146780 — personal-account Gems transitioning to Skills; existing access and timing must be checked.
+- Microsoft 365 Agent Builder knowledge: https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-knowledge — up to 20 embedded knowledge files documented, tenant limitations apply.
+- Microsoft Agent Builder Skills: https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-skills — Frontier preview-gated Skill ZIP, `SKILL.md` at root; licensing/tenant policy affects availability.
+
+Providers update UI and licensing, so these references are planning aids, not proof of user eligibility or installation.
