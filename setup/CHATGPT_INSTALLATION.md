@@ -1,4 +1,4 @@
-# Manual ChatGPT installation — Factory v1.4.1
+# Manual ChatGPT installation — Factory v1.4.2
 
 Use ChatGPT **Projects** for the persistent Factory. This guide does **not** claim that personal ChatGPT accounts support uploadable native Skills. See the current [OpenAI Projects guide](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) and actual UI for account file limits.
 

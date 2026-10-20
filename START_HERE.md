@@ -1,4 +1,4 @@
-# START HERE — Factory v1.4.1 (Light and Full)
+# START HERE — Factory v1.4.2 (Light and Full)
 
 This is a shareable, GitHub-ready release of the **AI Project Kit Factory**, not an already-installed agent or automatically activated Skill; publishing this release is separate from installing it. It generates BOTH specialist Light and specialist Full kits from **either** Factory installation edition.
 
@@ -17,8 +17,8 @@ Read [Edition selection and migration](setup/EDITION_SELECTION_AND_MIGRATION.md)
 
 | Install | Instructions | Markdown knowledge folder | Optional Skill ZIPs |
 |---|---|---|---|
-| **Factory Light** | `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` | `factory-light/` — 3 Markdown files | `distributions/*Light*Skill_v1.4.1.zip` |
-| **Factory Full** | `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` | `factory-full/` — 8 Markdown files | `distributions/*Full*Skill_v1.4.1.zip` |
+| **Factory Light** | `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` | `factory-light/` — 3 Markdown files | `distributions/*Light*Skill_v1.4.2.zip` |
+| **Factory Full** | `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` | `factory-full/` — 8 Markdown files | `distributions/*Full*Skill_v1.4.2.zip` |
 
 **Do not upload** the separate Skill ZIP as another project knowledge file or upload the whole GitHub ZIP as a Skill. Skills are feature-gated. A Light Factory still generates BOTH **specialist** editions (3 and 8 knowledge files).
 

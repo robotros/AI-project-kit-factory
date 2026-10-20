@@ -1,4 +1,4 @@
-# Manual Grok installation — Factory v1.4.1
+# Manual Grok installation — Factory v1.4.2
 
 Use Grok's actual available **Projects, Skills or eligible Bots** UI; plan, access and Skill import format must be confirmed in the user's account. A portable `SKILL.md` folder or ZIP is a **source artifact**, not proof that Grok accepts this precise archive.
 
