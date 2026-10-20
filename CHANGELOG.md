@@ -5,7 +5,7 @@
 - Added standard MIT LICENSE, Copyright (c) 2026 robotros.
 - Updated the verified repository URL and release documentation.
 - Preserved Light (three-file) and Full (eight-file) Factory contracts and the six workflow commands.
-- Rebuilt versioned install and Skill packages in the standalone v1.4.1 build. Those binaries require separate GitHub upload or synchronization.
+- Rebuilt and uploaded all six v1.4.1 edition-install and Skill ZIP packages to the GitHub release branch; their Git blob IDs and SHA-256 digests were checked against the prepared build.
 - GitHub merge, release publication and external-agent validation remain separate approval and verification steps.
 
 

@@ -9,7 +9,7 @@
 - Clarifies verified repository location, release verification and installation boundaries.
 - Retains both independently installable editions: Factory Light (3 knowledge files) and Factory Full (8).
 - Preserves native Skill packages, platform-aware installation guides, setup prompts and QA workflow.
-- Versioned installer and Skill ZIPs are available in the separately prepared v1.4.1 release build and must be synchronized before publishing the final GitHub release.
+- All six v1.4.1 installer and Skill ZIPs are present in [`distributions/`](distributions/) and listed in the GitHub-source SHA-256 manifest.
 
 ## Setup
 See [START_HERE.md](START_HERE.md) and [AI_SETUP_PROMPT.md](AI_SETUP_PROMPT.md) for conversational setup. Upgrade by replacing the previous edition's instructions and knowledge references, not merging two editions into one project.
