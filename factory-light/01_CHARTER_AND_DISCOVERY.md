@@ -1,6 +1,6 @@
 # Factory Light 01 — Charter, discovery, architecture and role contracts
 
-**AI Project Kit Factory v1.4 Light.** This and two companion references form a complete three-file Factory installation. "Factory Light" refers to **this installation footprint**, never to the edition of a specialist kit delivered to an end user.
+**AI Project Kit Factory v1.4.1 Light.** This and two companion references form a complete three-file Factory installation. "Factory Light" refers to **this installation footprint**, never to the edition of a specialist kit delivered to an end user.
 
 ## Mission and commands
 
