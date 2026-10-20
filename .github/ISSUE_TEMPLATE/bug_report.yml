@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible Factory source, package, setup or validation issue
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include credentials, private records, security exploits or confidential files. Security issues belong in SECURITY.md."
+  - type: input
+    id: version
+    attributes:
+      label: Factory version
+      description: "Example: v1.4.1, main, or a commit SHA"
+      placeholder: "Version/commit"
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Factory edition
+      options:
+        - Light (3 knowledge files)
+        - Full (8 knowledge files)
+        - Both / unknown
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: "Use fictional or redacted examples only."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected versus actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Test evidence and limitations
+      description: "Distinguish static inspection, user confirmation and actual destination tests."
+    validations:
+      required: false
