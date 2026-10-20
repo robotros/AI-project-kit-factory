@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-20. **Repository:** https://github.com/robotros/AI-project-kit-factory  
 **Release branch:** `release/v1.4.2-installers`  
-**Source snapshot:** `f618b8aff9e3435be437829f2c98c37abaae3a6a` (prior to this manifest commit; all non-manifest file Git blob IDs remain valid).  
+**Source snapshot:** `15126002a082e304aeacf997d3b31eabed66bb6e` (prior to this manifest commit; all non-manifest file Git blob IDs remain valid).  
 **Total tracked files:** 120; **manifest entries:** 119 (this manifest intentionally excluded).  
 **License:** MIT, Copyright (c) 2026 robotros. The Factory's license is not automatically applied to generated kits.
 
@@ -43,7 +43,7 @@
 | `README.md` | `f2221d3d3b37131bd44198ff5912cf0300a62e4e` | 5965 |
 | `SECURITY.md` | `50693f50049881a64545b89c5bf164a54da300d2` | 1743 |
 | `START_HERE.md` | `5ed5345d503a98a5135267c9f2e3edbe4e15e45e` | 3089 |
-| `VALIDATION_REPORT.md` | `60f50ea15d5605686bb820a102a50585b7417b58` | 3826 |
+| `VALIDATION_REPORT.md` | `afc78d64626dbaa742725a8e3d7c1e719e85a4e7` | 5647 |
 | `adapters/chatgpt-project/FACTORY_PROJECT_INSTRUCTIONS_CHATGPT.txt` | `c6511278164342254b468d202a7a948a1c7b3260` | 5127 |
 | `adapters/claude-project/FACTORY_PROJECT_INSTRUCTIONS_CLAUDE.txt` | `c6511278164342254b468d202a7a948a1c7b3260` | 5127 |
 | `adapters/claude-skill/ai-project-kit-factory-full/SKILL.md` | `d6d4c1eaf407f528a20c507d220b902a9c71f967` | 2524 |
