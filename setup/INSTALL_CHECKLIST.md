@@ -1,4 +1,4 @@
-# Factory v1.4 installation checklist
+# Factory v1.4.1 installation checklist
 
 - [ ] Confirm platform and actual available project/agent/Skill capabilities (not assumed from plan name).
 - [ ] Confirm installing **Factory Light 3** or **Factory Full 8**; record edition separately from specialist kits.

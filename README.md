@@ -25,8 +25,8 @@ Native Skills are packaged by **Factory edition**:
 
 | Factory Skill | Claude-specific wrapper | Root `SKILL.md` package |
 |---|---|---|
-| Light | [`Light Claude ZIP`](distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.zip) | [`Light Root ZIP`](distributions/AI_Project_Kit_Factory_Light_Root_Skill_v1.4.zip) |
-| Full | [`Full Claude ZIP`](distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.zip) | [`Full Root ZIP`](distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.zip) |
+| Light | [`Light Claude ZIP`](distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.1.zip) | [`Light Root ZIP`](distributions/AI_Project_Kit_Factory_Light_Root_Skill_v1.4.1.zip) |
+| Full | [`Full Claude ZIP`](distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.1.zip) | [`Full Root ZIP`](distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.1.zip) |
 
 Skills install separately and only when the actual platform/tenant supports them; when not, use a persistent Project/Gem/agent with skill procedures as normal knowledge. Skills do not grant connector access, share Project memory automatically, or count as additional 3rd/8th knowledge files. New **specialist** kits also receive a Skill suitability decision per role, with separate Skill packages only where useful. No bundled executable scripts.
 
