@@ -1,6 +1,6 @@
 # Factory Light 02 — Output standards, platform adapters, setup and Skills
 
-**AI Project Kit Factory v1.4.1 Light.** Read with Light 01 and Light 03. These condensed procedures must generate BOTH specialist editions while observing every platform's actual capabilities.
+**AI Project Kit Factory v1.4.2 Light.** Read with Light 01 and Light 03. These condensed procedures must generate BOTH specialist editions while observing every platform's actual capabilities.
 
 ## Exact specialist file layouts
 

@@ -13,9 +13,9 @@ The *role workspace* holds persistent role, input sources and conversations. Its
 
 ## Package shapes
 
-**Claude:** ZIP archive with a single top-level folder whose basename matches `name`, containing `SKILL.md` and `references/` (`distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.1.zip`).
+**Claude:** ZIP archive with a single top-level folder whose basename matches `name`, containing `SKILL.md` and `references/` (`distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.2.zip`).
 
-**Gemini / M365 Agent Builder Frontier / Copilot Studio GitHub Copilot harness:** root ZIP with `SKILL.md` at archive root and `references/` (`distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.1.zip`). Copilot Studio may accept standalone `SKILL.md`; multi-file workflows use ZIP. These do not automatically install into every platform.
+**Gemini / M365 Agent Builder Frontier / Copilot Studio GitHub Copilot harness:** root ZIP with `SKILL.md` at archive root and `references/` (`distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.2.zip`). Copilot Studio may accept standalone `SKILL.md`; multi-file workflows use ZIP. These do not automatically install into every platform.
 
 **ChatGPT eligible workspaces:** supply editable `SKILL.md` folder as source, and create/upload through Plugins > Skills; exact import container acceptance must be confirmed in the actual UI. **Personal ChatGPT:** Project reference fallback.
 

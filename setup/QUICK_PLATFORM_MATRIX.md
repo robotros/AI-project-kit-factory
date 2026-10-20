@@ -1,4 +1,4 @@
-# v1.4.1 quick platform installation choices
+# v1.4.2 quick platform installation choices
 
 First select Factory Light (3) or Factory Full (8) using `setup/EDITION_SELECTION_AND_MIGRATION.md`; these are **Factory** knowledge counts. Every installed edition generates BOTH specialist Light and Full kits.
 

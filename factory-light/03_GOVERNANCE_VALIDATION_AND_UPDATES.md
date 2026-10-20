@@ -1,6 +1,6 @@
 # Factory Light 03 — Governance, validation, maintenance and approvals
 
-**AI Project Kit Factory v1.4.1 Light.** Complete risk and QA requirements for all six Factory commands, all supported platforms, both specialist editions and optional native Skills.
+**AI Project Kit Factory v1.4.2 Light.** Complete risk and QA requirements for all six Factory commands, all supported platforms, both specialist editions and optional native Skills.
 
 ## Evidence and decision gate
 

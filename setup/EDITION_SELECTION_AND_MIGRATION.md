@@ -9,7 +9,7 @@ This table refers to **installing the Factory itself**. It does not change its d
 
 For **Microsoft 365 Copilot Agent Builder**, upload only the corresponding three/eight equivalent `.txt` under `adapters/microsoft-365-agent-builder/light/` or `/full/` if `.md` cannot be embedded. These are format conversions, not additional sources. Other platforms should follow their current accepted file types and tenant controls. If none supports files, offer manual-copy fallback and disclose lack of persistent knowledge.
 
-The optional native **Factory Skill** is separate from project knowledge. Choose `distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.1.zip` or the Full equivalent for Claude; for eligible root-import Skills choose Light/Full Root ZIP. Do not upload the **whole Factory repository ZIP** as a Skill. A provider can reject a well-formed ZIP because of rollout, plan or permissions.
+The optional native **Factory Skill** is separate from project knowledge. Choose `distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.2.zip` or the Full equivalent for Claude; for eligible root-import Skills choose Light/Full Root ZIP. Do not upload the **whole Factory repository ZIP** as a Skill. A provider can reject a well-formed ZIP because of rollout, plan or permissions.
 
 ## Upgrade from v1.3.1 or switch editions
 

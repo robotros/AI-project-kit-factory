@@ -1,4 +1,4 @@
-# v1.4.1 cross-platform acceptance prompts — run in the actual destination
+# v1.4.2 cross-platform acceptance prompts — run in the actual destination
 
 These prompts are **test inputs**, not a claim that tests have run. Use fictional data only. Run in a new chat of the saved Project/agent or an eligible Skill-triggering chat.
 

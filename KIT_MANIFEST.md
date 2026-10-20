@@ -1,137 +1,145 @@
-# AI Project Kit Factory — Unreleased Community-Options Branch Manifest
+# AI Project Kit Factory v1.4.2 — Source and Distribution Inventory
 
-**Date:** 2026-10-20 · **Scope:** `feature/kit-license-community-options` · **Source snapshot:** `8b424294dcff1f3e96a21563a83e932b56304a54` (before manifest/report commit).  
-**Tracked files:** 119; **inventory entries:** 118 (manifest intentionally excludes itself).  
-**Hashes below:** Git **blob SHA-1 object IDs**, NOT SHA-256. Each identifier is attached to the GitHub source file at the referenced snapshot. For a new published release, regenerate a SHA-256 manifest using exact final bytes after rebuilding versioned distributions.
+**Date:** 2026-10-20. **Repository:** https://github.com/robotros/AI-project-kit-factory  
+**Release branch:** `release/v1.4.2-installers`  
+**Source snapshot:** `15126002a082e304aeacf997d3b31eabed66bb6e` (prior to this manifest commit; all non-manifest file Git blob IDs remain valid).  
+**Total tracked files:** 120; **manifest entries:** 119 (this manifest intentionally excluded).  
+**License:** MIT, Copyright (c) 2026 robotros. The Factory's license is not automatically applied to generated kits.
 
-**Release status:** SOURCE-ONLY DRAFT. Existing six `v1.4.1` archives do not include these new rules and remain historical; **not ready to merge or publish as a new complete release**. Root Factory MIT LICENSE remains unchanged and **does not license generated user kits** automatically.
+**Hash format below:** Git blob **SHA-1 object ID**, not SHA-256. IDs are intrinsic to the exact file bytes committed on GitHub. Both standalone Project installer ZIPs separately contain a SHA-256 inventory of every enclosed file (excluding their respective manifests). GitHub ZIP SHA-256 checksums and independent extraction remain **NEEDS_VERIFICATION**; do not conflate object IDs with SHA-256. This repository is a release candidate, not a published v1.4.2 release.
 
-## Git blob inventory
+## Distribution contracts
 
-| Path | Git blob SHA-1 |
-|---|---|
-| `.gitattributes` | `2493353cd61203dd4e346548039c483c534f027e` |
-| `.github/ISSUE_TEMPLATE/bug_report.yml` | `025d445d651c2b74f3aee3f0ac58de50e8d52ab2` |
-| `.github/ISSUE_TEMPLATE/feature_request.yml` | `2820fcd3bb22d53efbe6358bd7c2e9d70ec9f3ad` |
-| `.github/PULL_REQUEST_TEMPLATE.md` | `17a9dd2b6c211845863332f6c5af0734246985d5` |
-| `.gitignore` | `851a6d7851a41cf28e810f42fc62bcce7324340e` |
-| `01_FACTORY_CHARTER.md` | `5fa0e8364771865977f444af881fb88ac5009872` |
-| `02_DISCOVERY_AND_ARCHITECTURE.md` | `ddc83dbbdf8d0063b14cf6cbd3fc2f4addb81fb4` |
-| `03_PLATFORM_PROFILES.md` | `9f148fe3782f1ad7dab9b268452141e727577604` |
-| `04_GENERATION_STANDARDS.md` | `8b66f3f87e5643d39e3151f6a27bd2f4c449e342` |
-| `05_PROMPT_ENGINEERING.md` | `b43e37fce9ec7298ae8e6703737a168bbde21068` |
-| `06_SETUP_ORCHESTRATION.md` | `68bfecdf566f394c442f8cb1c7cb440304c9661e` |
-| `07_VALIDATION_AND_EVALS.md` | `ed582d4826d0a0a7d35896778aa56a3b9e0a4c4e` |
-| `08_GOVERNANCE_AND_UPDATES.md` | `d4421891b643bd658cfcb34e2fcbc57d05faa79c` |
-| `AI_SETUP_PROMPT.md` | `4ca2b413f08b41252b49ee6c3e67968df64c0e03` |
-| `CHANGELOG.md` | `9094f9075052bb581864954018fc2411753cf98a` |
-| `CODE_OF_CONDUCT.md` | `823cfc3724001cef385da1a4967c387fa9629ed2` |
-| `CONTRIBUTING.md` | `48ab244e399f6ef8644fa60d853e82ea1206b036` |
-| `GITHUB_RELEASE_v1.4.1.md` | `8f5852ccf2a2e3554f74a8ccab2b5a0a74e10614` |
-| `LICENSE` | `75a460423eef585c9e4d463c08a737d90aaca24c` |
-| `README.md` | `f1cbbc3652c4c23dfe6db55ba032e6299e6ded19` |
-| `SECURITY.md` | `50693f50049881a64545b89c5bf164a54da300d2` |
-| `START_HERE.md` | `f4f633cfeb09692a08390b6e1536a02824f0fd6a` |
-| `VALIDATION_REPORT.md` | `83b36e08d0359c18fb0e2f822650f28b00780583` |
-| `adapters/chatgpt-project/FACTORY_PROJECT_INSTRUCTIONS_CHATGPT.txt` | `38008a90310c0aa07d6461a913b5c8ba3146dd54` |
-| `adapters/claude-project/FACTORY_PROJECT_INSTRUCTIONS_CLAUDE.txt` | `38008a90310c0aa07d6461a913b5c8ba3146dd54` |
-| `adapters/claude-skill/ai-project-kit-factory-full/SKILL.md` | `dc536657c1e702d5916737aaf99e9d90330c5658` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/01_FACTORY_CHARTER.md` | `5fa0e8364771865977f444af881fb88ac5009872` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/02_DISCOVERY_AND_ARCHITECTURE.md` | `ddc83dbbdf8d0063b14cf6cbd3fc2f4addb81fb4` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/03_PLATFORM_PROFILES.md` | `9f148fe3782f1ad7dab9b268452141e727577604` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/04_GENERATION_STANDARDS.md` | `8b66f3f87e5643d39e3151f6a27bd2f4c449e342` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/05_PROMPT_ENGINEERING.md` | `b43e37fce9ec7298ae8e6703737a168bbde21068` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/06_SETUP_ORCHESTRATION.md` | `68bfecdf566f394c442f8cb1c7cb440304c9661e` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/07_VALIDATION_AND_EVALS.md` | `ed582d4826d0a0a7d35896778aa56a3b9e0a4c4e` |
-| `adapters/claude-skill/ai-project-kit-factory-full/references/08_GOVERNANCE_AND_UPDATES.md` | `d4421891b643bd658cfcb34e2fcbc57d05faa79c` |
-| `adapters/microsoft-365-agent-builder/01_FACTORY_CHARTER.txt` | `5fa0e8364771865977f444af881fb88ac5009872` |
-| `adapters/microsoft-365-agent-builder/02_DISCOVERY_AND_ARCHITECTURE.txt` | `ddc83dbbdf8d0063b14cf6cbd3fc2f4addb81fb4` |
-| `adapters/microsoft-365-agent-builder/03_PLATFORM_PROFILES.txt` | `9f148fe3782f1ad7dab9b268452141e727577604` |
-| `adapters/microsoft-365-agent-builder/04_GENERATION_STANDARDS.txt` | `8b66f3f87e5643d39e3151f6a27bd2f4c449e342` |
-| `adapters/microsoft-365-agent-builder/05_PROMPT_ENGINEERING.txt` | `b43e37fce9ec7298ae8e6703737a168bbde21068` |
-| `adapters/microsoft-365-agent-builder/06_SETUP_ORCHESTRATION.txt` | `68bfecdf566f394c442f8cb1c7cb440304c9661e` |
-| `adapters/microsoft-365-agent-builder/07_VALIDATION_AND_EVALS.txt` | `ed582d4826d0a0a7d35896778aa56a3b9e0a4c4e` |
-| `adapters/microsoft-365-agent-builder/08_GOVERNANCE_AND_UPDATES.txt` | `d4421891b643bd658cfcb34e2fcbc57d05faa79c` |
-| `adapters/microsoft-365-agent-builder/full/01_FACTORY_CHARTER.txt` | `5fa0e8364771865977f444af881fb88ac5009872` |
-| `adapters/microsoft-365-agent-builder/full/02_DISCOVERY_AND_ARCHITECTURE.txt` | `ddc83dbbdf8d0063b14cf6cbd3fc2f4addb81fb4` |
-| `adapters/microsoft-365-agent-builder/full/03_PLATFORM_PROFILES.txt` | `9f148fe3782f1ad7dab9b268452141e727577604` |
-| `adapters/microsoft-365-agent-builder/full/04_GENERATION_STANDARDS.txt` | `8b66f3f87e5643d39e3151f6a27bd2f4c449e342` |
-| `adapters/microsoft-365-agent-builder/full/05_PROMPT_ENGINEERING.txt` | `b43e37fce9ec7298ae8e6703737a168bbde21068` |
-| `adapters/microsoft-365-agent-builder/full/06_SETUP_ORCHESTRATION.txt` | `68bfecdf566f394c442f8cb1c7cb440304c9661e` |
-| `adapters/microsoft-365-agent-builder/full/07_VALIDATION_AND_EVALS.txt` | `ed582d4826d0a0a7d35896778aa56a3b9e0a4c4e` |
-| `adapters/microsoft-365-agent-builder/full/08_GOVERNANCE_AND_UPDATES.txt` | `d4421891b643bd658cfcb34e2fcbc57d05faa79c` |
-| `adapters/microsoft-365-agent-builder/light/01_CHARTER_AND_DISCOVERY.txt` | `7eeb76caf4b2f717f19adeb74bf84cb2c6b0b795` |
-| `adapters/microsoft-365-agent-builder/light/02_PLATFORMS_GENERATION_AND_SETUP.txt` | `824f424aff710ed0d209d7cc8217a3c724817da7` |
-| `adapters/microsoft-365-agent-builder/light/03_GOVERNANCE_VALIDATION_AND_UPDATES.txt` | `f2f312b8d79691c87c903f8035b4103bd7866825` |
-| `adapters/portable-skill/ai-project-kit-factory-full/SKILL.md` | `dc536657c1e702d5916737aaf99e9d90330c5658` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/01_FACTORY_CHARTER.md` | `5fa0e8364771865977f444af881fb88ac5009872` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/02_DISCOVERY_AND_ARCHITECTURE.md` | `ddc83dbbdf8d0063b14cf6cbd3fc2f4addb81fb4` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/03_PLATFORM_PROFILES.md` | `9f148fe3782f1ad7dab9b268452141e727577604` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/04_GENERATION_STANDARDS.md` | `8b66f3f87e5643d39e3151f6a27bd2f4c449e342` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/05_PROMPT_ENGINEERING.md` | `b43e37fce9ec7298ae8e6703737a168bbde21068` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/06_SETUP_ORCHESTRATION.md` | `68bfecdf566f394c442f8cb1c7cb440304c9661e` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/07_VALIDATION_AND_EVALS.md` | `ed582d4826d0a0a7d35896778aa56a3b9e0a4c4e` |
-| `adapters/portable-skill/ai-project-kit-factory-full/references/08_GOVERNANCE_AND_UPDATES.md` | `d4421891b643bd658cfcb34e2fcbc57d05faa79c` |
-| `distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.1.zip` | `65d4679c09f16bb5fd74545464a9e3bb6586a23a` |
-| `distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.1.zip` | `d9f4faf5480db823ff5e6ed67a96b256e9b16097` |
-| `distributions/AI_Project_Kit_Factory_Full_v1.4.1_Install.zip` | `57f8dacb5831c8b5822be1972bc8abcd24012791` |
-| `distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.1.zip` | `2106961f7cf1534049d268f704286421b5c23721` |
-| `distributions/AI_Project_Kit_Factory_Light_Root_Skill_v1.4.1.zip` | `3cb2c67ac677c0febd842ce8a5da907cfac0410d` |
-| `distributions/AI_Project_Kit_Factory_Light_v1.4.1_Install.zip` | `87d13e4cea1e6cc5f12fb01a668db8a79c96a1bd` |
-| `docs/CAPABILITY_MATRIX.md` | `b63e88cc86507c555364302ef66f1413f9646eba` |
-| `docs/CLAUDE_PLATFORM_GUIDE.md` | `c7f916110746857640d04c553c1871a72072de22` |
-| `docs/GENERATED_KIT_GITHUB_OPTIONS.md` | `3def154d1ac37856965fd45dd071c12457f7cfba` |
-| `docs/MICROSOFT_PLATFORM_GUIDE.md` | `7e1a822e43cd2da8660d8a0190ac3c68dec38a79` |
-| `docs/OFFICIAL_SOURCES.md` | `e9c779f072c33cf6f06439a67bd907152c1978a6` |
-| `docs/SKILL_PACKAGING_AND_ARCHITECTURE.md` | `7952c131191871c5199522cbbd9f9ffe68e082d5` |
-| `factory-full/01_FACTORY_CHARTER.md` | `5fa0e8364771865977f444af881fb88ac5009872` |
-| `factory-full/02_DISCOVERY_AND_ARCHITECTURE.md` | `ddc83dbbdf8d0063b14cf6cbd3fc2f4addb81fb4` |
-| `factory-full/03_PLATFORM_PROFILES.md` | `9f148fe3782f1ad7dab9b268452141e727577604` |
-| `factory-full/04_GENERATION_STANDARDS.md` | `8b66f3f87e5643d39e3151f6a27bd2f4c449e342` |
-| `factory-full/05_PROMPT_ENGINEERING.md` | `b43e37fce9ec7298ae8e6703737a168bbde21068` |
-| `factory-full/06_SETUP_ORCHESTRATION.md` | `68bfecdf566f394c442f8cb1c7cb440304c9661e` |
-| `factory-full/07_VALIDATION_AND_EVALS.md` | `ed582d4826d0a0a7d35896778aa56a3b9e0a4c4e` |
-| `factory-full/08_GOVERNANCE_AND_UPDATES.md` | `d4421891b643bd658cfcb34e2fcbc57d05faa79c` |
-| `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` | `9f6be26a1c0915eba2259f3dbfc19332cafe4ed3` |
-| `factory-light/01_CHARTER_AND_DISCOVERY.md` | `7eeb76caf4b2f717f19adeb74bf84cb2c6b0b795` |
-| `factory-light/02_PLATFORMS_GENERATION_AND_SETUP.md` | `824f424aff710ed0d209d7cc8217a3c724817da7` |
-| `factory-light/03_GOVERNANCE_VALIDATION_AND_UPDATES.md` | `f2f312b8d79691c87c903f8035b4103bd7866825` |
-| `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` | `17e85805dd37bd52a72b948e93e19ef039d86d7e` |
-| `setup/CHATGPT_INSTALLATION.md` | `29ad8b4871c2c10ae396c3f257a5effbc20a8c60` |
-| `setup/CLAUDE_INSTALLATION.md` | `f4accc04d1fbd13814db8efe26ef7eea443bcb97` |
-| `setup/CLAUDE_TEST_PROMPTS.md` | `c1008f664dd0210a33e1140484befb1f8af75287` |
-| `setup/CROSS_PLATFORM_INSTALLATION.md` | `8a59f9eec185dadb465bf4ac6facaa6e3786cec6` |
-| `setup/CROSS_PLATFORM_TEST_PROMPTS.md` | `9930a13bf256d2fcb0c0349e86882424ab76711a` |
-| `setup/DEPLOYMENT_RECEIPT.md` | `c294d1b6ce330199ffa77b150b96253c23f23ebc` |
-| `setup/EDITION_SELECTION_AND_MIGRATION.md` | `2bc01959a246a4540bfb1f3a2fecadaab8bfa639` |
-| `setup/FACTORY_AGENT_INSTRUCTIONS_MICROSOFT.txt` | `38008a90310c0aa07d6461a913b5c8ba3146dd54` |
-| `setup/FACTORY_PROJECT_INSTRUCTIONS_ADDENDUM.txt` | `c75d6e632e6da0cadc3c14e6bf0f1a06bdf7e1cc` |
-| `setup/GEMINI_INSTALLATION.md` | `2817284cda0d5d11618837b96117390f4a66512d` |
-| `setup/GITHUB_PUBLISHING.md` | `b52474c948f4479dc923c8df77b78b6d0f669c7e` |
-| `setup/GROK_INSTALLATION.md` | `5ca0c7c0f33b70461d992026866c37c1057fdeb0` |
-| `setup/INSTALL_CHECKLIST.md` | `54d33e450e73c7bcfdd0ee17d542a6be40e70905` |
-| `setup/INSTALL_WIZARD_TESTS.md` | `e39ddc872cea42d0df71fe3212ff50d15660e5eb` |
-| `setup/MICROSOFT_INSTALLATION.md` | `df1beae065a09dd853f736328a13e5a2bac7c10e` |
-| `setup/PLATFORM_INSTALLATION.md` | `1dee7522310c75c308426cd478cc5387aab94318` |
-| `setup/QUICK_PLATFORM_MATRIX.md` | `52c3c486b6a683a11eb459894da5016ef77c92b3` |
-| `skills/ai-project-kit-factory-full/SKILL.md` | `dc536657c1e702d5916737aaf99e9d90330c5658` |
-| `skills/ai-project-kit-factory-full/references/01_FACTORY_CHARTER.md` | `5fa0e8364771865977f444af881fb88ac5009872` |
-| `skills/ai-project-kit-factory-full/references/02_DISCOVERY_AND_ARCHITECTURE.md` | `ddc83dbbdf8d0063b14cf6cbd3fc2f4addb81fb4` |
-| `skills/ai-project-kit-factory-full/references/03_PLATFORM_PROFILES.md` | `9f148fe3782f1ad7dab9b268452141e727577604` |
-| `skills/ai-project-kit-factory-full/references/04_GENERATION_STANDARDS.md` | `8b66f3f87e5643d39e3151f6a27bd2f4c449e342` |
-| `skills/ai-project-kit-factory-full/references/05_PROMPT_ENGINEERING.md` | `b43e37fce9ec7298ae8e6703737a168bbde21068` |
-| `skills/ai-project-kit-factory-full/references/06_SETUP_ORCHESTRATION.md` | `68bfecdf566f394c442f8cb1c7cb440304c9661e` |
-| `skills/ai-project-kit-factory-full/references/07_VALIDATION_AND_EVALS.md` | `ed582d4826d0a0a7d35896778aa56a3b9e0a4c4e` |
-| `skills/ai-project-kit-factory-full/references/08_GOVERNANCE_AND_UPDATES.md` | `d4421891b643bd658cfcb34e2fcbc57d05faa79c` |
-| `skills/ai-project-kit-factory-light/SKILL.md` | `6fbfaa5143c7f2ea330a8c1216e4b0f6ab690143` |
-| `skills/ai-project-kit-factory-light/references/01_CHARTER_AND_DISCOVERY.md` | `7eeb76caf4b2f717f19adeb74bf84cb2c6b0b795` |
-| `skills/ai-project-kit-factory-light/references/02_PLATFORMS_GENERATION_AND_SETUP.md` | `824f424aff710ed0d209d7cc8217a3c724817da7` |
-| `skills/ai-project-kit-factory-light/references/03_GOVERNANCE_VALIDATION_AND_UPDATES.md` | `f2f312b8d79691c87c903f8035b4103bd7866825` |
-| `templates/ROLE_SKILL_TEMPLATE.md` | `ec6f0f2b2626eed7d593dbe696cc3cef1e4cb899` |
+- Factory Light uses `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` plus exactly three canonical .md files. Light installer: `distributions/AI_Project_Kit_Factory_Light_v1.4.2_Install.zip`.
+- Factory Full uses `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` plus exactly eight canonical .md files. Full installer: `distributions/AI_Project_Kit_Factory_Full_v1.4.2_Install.zip`.
+- Both editions create BOTH specialist Light (3) and Full (8) kits for each role; optional Skill ZIPs never count as project knowledge uploads.
+- Native Skill packages: separate `Light/Full_Claude_Skill_v1.4.2.zip` (folder-wrapped) and `Light/Full_Root_Skill_v1.4.2.zip` (root-import), with approved reference sets and MIT notice.
+- Generated-kit licensing/community and under-1-MB social preview options are opt-in, not automatic publication or account changes.
 
-## Blocking follow-up
+## GitHub tracked file inventory
 
-1. Obtain user review/approval of proposed source docs and reporting channel.
-2. Build/version and verify all six new installer/Skill ZIP packages from the same source.
-3. Regenerate exact release SHA-256 checksums and validate archive paths, metadata, no secrets, source parity and behavioral prompts.
-4. Update this manifest and [VALIDATION_REPORT.md](VALIDATION_REPORT.md) with verified release evidence before considering merge or publication.
+| File | Git blob SHA-1 | Bytes |
+|---|---|---:|
+| `.gitattributes` | `2493353cd61203dd4e346548039c483c534f027e` | 69 |
+| `.github/ISSUE_TEMPLATE/bug_report.yml` | `025d445d651c2b74f3aee3f0ac58de50e8d52ab2` | 1304 |
+| `.github/ISSUE_TEMPLATE/feature_request.yml` | `2820fcd3bb22d53efbe6358bd7c2e9d70ec9f3ad` | 1116 |
+| `.github/PULL_REQUEST_TEMPLATE.md` | `17a9dd2b6c211845863332f6c5af0734246985d5` | 1386 |
+| `.gitignore` | `851a6d7851a41cf28e810f42fc62bcce7324340e` | 65 |
+| `01_FACTORY_CHARTER.md` | `e4ed10cc24cd11749ce652a214ff7c2ec3fa8989` | 6681 |
+| `02_DISCOVERY_AND_ARCHITECTURE.md` | `9b67c7d4aaeef3a9fca8e1ac7607ac42670ec4ea` | 8024 |
+| `03_PLATFORM_PROFILES.md` | `b187894d3e04cd092afec6d72dad4b35c721fd9b` | 8478 |
+| `04_GENERATION_STANDARDS.md` | `805f75606e3eb80ed33e693a01be4329c7cd0191` | 10922 |
+| `05_PROMPT_ENGINEERING.md` | `c1e2267e7f6654dc29aaa4bcaa26f7c92e7a7c02` | 5848 |
+| `06_SETUP_ORCHESTRATION.md` | `8de85bbf7c8a2119056023a907aa09d226b00fad` | 9923 |
+| `07_VALIDATION_AND_EVALS.md` | `7b698e30bbb6a15100f6011bad10cd2b9a494d75` | 10737 |
+| `08_GOVERNANCE_AND_UPDATES.md` | `4eadbf1e59f037b62a48e74bd2a6313263e76450` | 7382 |
+| `AI_SETUP_PROMPT.md` | `b3212385e4339cffac4f7c33a0b50404a1357f90` | 6423 |
+| `CHANGELOG.md` | `047fcee74de8e48269d38e70ac79427d7f38ec89` | 4342 |
+| `CODE_OF_CONDUCT.md` | `823cfc3724001cef385da1a4967c387fa9629ed2` | 1680 |
+| `CONTRIBUTING.md` | `48ab244e399f6ef8644fa60d853e82ea1206b036` | 2494 |
+| `GITHUB_RELEASE_v1.4.1.md` | `8f5852ccf2a2e3554f74a8ccab2b5a0a74e10614` | 1175 |
+| `GITHUB_RELEASE_v1.4.2.md` | `d149822bea8f3e5b2ac9305e849b6dbff25601ac` | 2357 |
+| `LICENSE` | `75a460423eef585c9e4d463c08a737d90aaca24c` | 1065 |
+| `README.md` | `f2221d3d3b37131bd44198ff5912cf0300a62e4e` | 5965 |
+| `SECURITY.md` | `50693f50049881a64545b89c5bf164a54da300d2` | 1743 |
+| `START_HERE.md` | `5ed5345d503a98a5135267c9f2e3edbe4e15e45e` | 3089 |
+| `VALIDATION_REPORT.md` | `afc78d64626dbaa742725a8e3d7c1e719e85a4e7` | 5647 |
+| `adapters/chatgpt-project/FACTORY_PROJECT_INSTRUCTIONS_CHATGPT.txt` | `c6511278164342254b468d202a7a948a1c7b3260` | 5127 |
+| `adapters/claude-project/FACTORY_PROJECT_INSTRUCTIONS_CLAUDE.txt` | `c6511278164342254b468d202a7a948a1c7b3260` | 5127 |
+| `adapters/claude-skill/ai-project-kit-factory-full/SKILL.md` | `d6d4c1eaf407f528a20c507d220b902a9c71f967` | 2524 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/01_FACTORY_CHARTER.md` | `e4ed10cc24cd11749ce652a214ff7c2ec3fa8989` | 6681 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/02_DISCOVERY_AND_ARCHITECTURE.md` | `9b67c7d4aaeef3a9fca8e1ac7607ac42670ec4ea` | 8024 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/03_PLATFORM_PROFILES.md` | `b187894d3e04cd092afec6d72dad4b35c721fd9b` | 8478 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/04_GENERATION_STANDARDS.md` | `805f75606e3eb80ed33e693a01be4329c7cd0191` | 10922 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/05_PROMPT_ENGINEERING.md` | `c1e2267e7f6654dc29aaa4bcaa26f7c92e7a7c02` | 5848 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/06_SETUP_ORCHESTRATION.md` | `8de85bbf7c8a2119056023a907aa09d226b00fad` | 9923 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/07_VALIDATION_AND_EVALS.md` | `7b698e30bbb6a15100f6011bad10cd2b9a494d75` | 10737 |
+| `adapters/claude-skill/ai-project-kit-factory-full/references/08_GOVERNANCE_AND_UPDATES.md` | `4eadbf1e59f037b62a48e74bd2a6313263e76450` | 7382 |
+| `adapters/microsoft-365-agent-builder/01_FACTORY_CHARTER.txt` | `e4ed10cc24cd11749ce652a214ff7c2ec3fa8989` | 6681 |
+| `adapters/microsoft-365-agent-builder/02_DISCOVERY_AND_ARCHITECTURE.txt` | `9b67c7d4aaeef3a9fca8e1ac7607ac42670ec4ea` | 8024 |
+| `adapters/microsoft-365-agent-builder/03_PLATFORM_PROFILES.txt` | `b187894d3e04cd092afec6d72dad4b35c721fd9b` | 8478 |
+| `adapters/microsoft-365-agent-builder/04_GENERATION_STANDARDS.txt` | `805f75606e3eb80ed33e693a01be4329c7cd0191` | 10922 |
+| `adapters/microsoft-365-agent-builder/05_PROMPT_ENGINEERING.txt` | `c1e2267e7f6654dc29aaa4bcaa26f7c92e7a7c02` | 5848 |
+| `adapters/microsoft-365-agent-builder/06_SETUP_ORCHESTRATION.txt` | `8de85bbf7c8a2119056023a907aa09d226b00fad` | 9923 |
+| `adapters/microsoft-365-agent-builder/07_VALIDATION_AND_EVALS.txt` | `7b698e30bbb6a15100f6011bad10cd2b9a494d75` | 10737 |
+| `adapters/microsoft-365-agent-builder/08_GOVERNANCE_AND_UPDATES.txt` | `4eadbf1e59f037b62a48e74bd2a6313263e76450` | 7382 |
+| `adapters/microsoft-365-agent-builder/full/01_FACTORY_CHARTER.txt` | `e4ed10cc24cd11749ce652a214ff7c2ec3fa8989` | 6681 |
+| `adapters/microsoft-365-agent-builder/full/02_DISCOVERY_AND_ARCHITECTURE.txt` | `9b67c7d4aaeef3a9fca8e1ac7607ac42670ec4ea` | 8024 |
+| `adapters/microsoft-365-agent-builder/full/03_PLATFORM_PROFILES.txt` | `b187894d3e04cd092afec6d72dad4b35c721fd9b` | 8478 |
+| `adapters/microsoft-365-agent-builder/full/04_GENERATION_STANDARDS.txt` | `805f75606e3eb80ed33e693a01be4329c7cd0191` | 10922 |
+| `adapters/microsoft-365-agent-builder/full/05_PROMPT_ENGINEERING.txt` | `c1e2267e7f6654dc29aaa4bcaa26f7c92e7a7c02` | 5848 |
+| `adapters/microsoft-365-agent-builder/full/06_SETUP_ORCHESTRATION.txt` | `8de85bbf7c8a2119056023a907aa09d226b00fad` | 9923 |
+| `adapters/microsoft-365-agent-builder/full/07_VALIDATION_AND_EVALS.txt` | `7b698e30bbb6a15100f6011bad10cd2b9a494d75` | 10737 |
+| `adapters/microsoft-365-agent-builder/full/08_GOVERNANCE_AND_UPDATES.txt` | `4eadbf1e59f037b62a48e74bd2a6313263e76450` | 7382 |
+| `adapters/microsoft-365-agent-builder/light/01_CHARTER_AND_DISCOVERY.txt` | `a376e11aef10a08424f948b84e9fc30b833cf878` | 5352 |
+| `adapters/microsoft-365-agent-builder/light/02_PLATFORMS_GENERATION_AND_SETUP.txt` | `28ffb9ac20469d22b570631de0467b90fa9b9ad7` | 7215 |
+| `adapters/microsoft-365-agent-builder/light/03_GOVERNANCE_VALIDATION_AND_UPDATES.txt` | `e026f468a69883e1135ab98a702acb18afb49dd9` | 6162 |
+| `adapters/portable-skill/ai-project-kit-factory-full/SKILL.md` | `d6d4c1eaf407f528a20c507d220b902a9c71f967` | 2524 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/01_FACTORY_CHARTER.md` | `e4ed10cc24cd11749ce652a214ff7c2ec3fa8989` | 6681 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/02_DISCOVERY_AND_ARCHITECTURE.md` | `9b67c7d4aaeef3a9fca8e1ac7607ac42670ec4ea` | 8024 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/03_PLATFORM_PROFILES.md` | `b187894d3e04cd092afec6d72dad4b35c721fd9b` | 8478 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/04_GENERATION_STANDARDS.md` | `805f75606e3eb80ed33e693a01be4329c7cd0191` | 10922 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/05_PROMPT_ENGINEERING.md` | `c1e2267e7f6654dc29aaa4bcaa26f7c92e7a7c02` | 5848 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/06_SETUP_ORCHESTRATION.md` | `8de85bbf7c8a2119056023a907aa09d226b00fad` | 9923 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/07_VALIDATION_AND_EVALS.md` | `7b698e30bbb6a15100f6011bad10cd2b9a494d75` | 10737 |
+| `adapters/portable-skill/ai-project-kit-factory-full/references/08_GOVERNANCE_AND_UPDATES.md` | `4eadbf1e59f037b62a48e74bd2a6313263e76450` | 7382 |
+| `distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.2.zip` | `bfc4c08658b8e933a7288abfc94c149321663356` | 73542 |
+| `distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.2.zip` | `2a8b2927dac1002517e71cf6d6d852d828633030` | 72982 |
+| `distributions/AI_Project_Kit_Factory_Full_v1.4.2_Install.zip` | `c28221dcfa69b260909aa9620d7cdaa6a91463e6` | 250834 |
+| `distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.2.zip` | `cca6d33f700ab984d10b3761ab9bab52c70fc84c` | 23314 |
+| `distributions/AI_Project_Kit_Factory_Light_Root_Skill_v1.4.2.zip` | `bba664c7dc0ee1cfadd8858f01a4a67854d04927` | 23024 |
+| `distributions/AI_Project_Kit_Factory_Light_v1.4.2_Install.zip` | `a971b77061c5208ad77575f2c7ee2e7087df08c5` | 148150 |
+| `docs/CAPABILITY_MATRIX.md` | `4500b1f1e33670d7816679d8e59382b91169430a` | 1649 |
+| `docs/CLAUDE_PLATFORM_GUIDE.md` | `c7f916110746857640d04c553c1871a72072de22` | 5099 |
+| `docs/GENERATED_KIT_GITHUB_OPTIONS.md` | `3def154d1ac37856965fd45dd071c12457f7cfba` | 5695 |
+| `docs/MICROSOFT_PLATFORM_GUIDE.md` | `7e1a822e43cd2da8660d8a0190ac3c68dec38a79` | 5623 |
+| `docs/OFFICIAL_SOURCES.md` | `b2e1da8030421240142a5c46dcb511f2cf9ecdd5` | 3858 |
+| `docs/SKILL_PACKAGING_AND_ARCHITECTURE.md` | `100a935f95c4a84a4ca38727781c6ddbe08f30d8` | 2668 |
+| `factory-full/01_FACTORY_CHARTER.md` | `e4ed10cc24cd11749ce652a214ff7c2ec3fa8989` | 6681 |
+| `factory-full/02_DISCOVERY_AND_ARCHITECTURE.md` | `9b67c7d4aaeef3a9fca8e1ac7607ac42670ec4ea` | 8024 |
+| `factory-full/03_PLATFORM_PROFILES.md` | `b187894d3e04cd092afec6d72dad4b35c721fd9b` | 8478 |
+| `factory-full/04_GENERATION_STANDARDS.md` | `805f75606e3eb80ed33e693a01be4329c7cd0191` | 10922 |
+| `factory-full/05_PROMPT_ENGINEERING.md` | `c1e2267e7f6654dc29aaa4bcaa26f7c92e7a7c02` | 5848 |
+| `factory-full/06_SETUP_ORCHESTRATION.md` | `8de85bbf7c8a2119056023a907aa09d226b00fad` | 9923 |
+| `factory-full/07_VALIDATION_AND_EVALS.md` | `7b698e30bbb6a15100f6011bad10cd2b9a494d75` | 10737 |
+| `factory-full/08_GOVERNANCE_AND_UPDATES.md` | `4eadbf1e59f037b62a48e74bd2a6313263e76450` | 7382 |
+| `factory-full/FACTORY_INSTRUCTIONS_FULL.txt` | `52e745077dfb356602f7f038879d58d0203a80f1` | 4725 |
+| `factory-light/01_CHARTER_AND_DISCOVERY.md` | `a376e11aef10a08424f948b84e9fc30b833cf878` | 5352 |
+| `factory-light/02_PLATFORMS_GENERATION_AND_SETUP.md` | `28ffb9ac20469d22b570631de0467b90fa9b9ad7` | 7215 |
+| `factory-light/03_GOVERNANCE_VALIDATION_AND_UPDATES.md` | `e026f468a69883e1135ab98a702acb18afb49dd9` | 6162 |
+| `factory-light/FACTORY_INSTRUCTIONS_LIGHT.txt` | `d211b6ca8b941772b8048dd1349a4746fb5af0c3` | 3839 |
+| `setup/CHATGPT_INSTALLATION.md` | `f1ff248144259535a25126697e63234110dd6804` | 2122 |
+| `setup/CLAUDE_INSTALLATION.md` | `79230ea114b4af7966722abb49878b164cfe47db` | 2033 |
+| `setup/CLAUDE_TEST_PROMPTS.md` | `c1008f664dd0210a33e1140484befb1f8af75287` | 2383 |
+| `setup/CROSS_PLATFORM_INSTALLATION.md` | `d5a9f29e94b526afb5b110c2d33547526e3a54c9` | 4179 |
+| `setup/CROSS_PLATFORM_TEST_PROMPTS.md` | `9910b20595cb1c52d18da1d3c72d0d80e474341d` | 2268 |
+| `setup/DEPLOYMENT_RECEIPT.md` | `397ba2ea2e10fa1a652d33c4670e5e11c8429120` | 1660 |
+| `setup/EDITION_SELECTION_AND_MIGRATION.md` | `4fd2a74d9369e2e81ec91ed0be3bf073ab98d210` | 2831 |
+| `setup/FACTORY_AGENT_INSTRUCTIONS_MICROSOFT.txt` | `c6511278164342254b468d202a7a948a1c7b3260` | 5127 |
+| `setup/FACTORY_PROJECT_INSTRUCTIONS_ADDENDUM.txt` | `407a07491a394d42ac3af6fa18077a6ca5875660` | 2221 |
+| `setup/GEMINI_INSTALLATION.md` | `cc4e5b0c0f0516ed9da2360d038fdb828cc5d498` | 1789 |
+| `setup/GITHUB_PUBLISHING.md` | `7ba602f748a2997db6fcb964cfc670168e6a2b46` | 3199 |
+| `setup/GROK_INSTALLATION.md` | `e05e5c1b8094c57388947ed5b27264681133f8f6` | 1642 |
+| `setup/INSTALL_CHECKLIST.md` | `beca35683e87202d1874dcb7b28f32272856b923` | 1791 |
+| `setup/INSTALL_WIZARD_TESTS.md` | `6e560410259f8f4c4de945ad71d1dd08c4109c39` | 2453 |
+| `setup/MICROSOFT_INSTALLATION.md` | `632d6260ae09cb23566b67272fcb45fcb3c68a6f` | 2942 |
+| `setup/PLATFORM_INSTALLATION.md` | `cab8c87d47c438eaec3adbd29dba554a844eb66f` | 2083 |
+| `setup/QUICK_PLATFORM_MATRIX.md` | `841c141b889bbeb28229eccfb60b9d7615250eef` | 1409 |
+| `skills/ai-project-kit-factory-full/SKILL.md` | `d6d4c1eaf407f528a20c507d220b902a9c71f967` | 2524 |
+| `skills/ai-project-kit-factory-full/references/01_FACTORY_CHARTER.md` | `e4ed10cc24cd11749ce652a214ff7c2ec3fa8989` | 6681 |
+| `skills/ai-project-kit-factory-full/references/02_DISCOVERY_AND_ARCHITECTURE.md` | `9b67c7d4aaeef3a9fca8e1ac7607ac42670ec4ea` | 8024 |
+| `skills/ai-project-kit-factory-full/references/03_PLATFORM_PROFILES.md` | `b187894d3e04cd092afec6d72dad4b35c721fd9b` | 8478 |
+| `skills/ai-project-kit-factory-full/references/04_GENERATION_STANDARDS.md` | `805f75606e3eb80ed33e693a01be4329c7cd0191` | 10922 |
+| `skills/ai-project-kit-factory-full/references/05_PROMPT_ENGINEERING.md` | `c1e2267e7f6654dc29aaa4bcaa26f7c92e7a7c02` | 5848 |
+| `skills/ai-project-kit-factory-full/references/06_SETUP_ORCHESTRATION.md` | `8de85bbf7c8a2119056023a907aa09d226b00fad` | 9923 |
+| `skills/ai-project-kit-factory-full/references/07_VALIDATION_AND_EVALS.md` | `7b698e30bbb6a15100f6011bad10cd2b9a494d75` | 10737 |
+| `skills/ai-project-kit-factory-full/references/08_GOVERNANCE_AND_UPDATES.md` | `4eadbf1e59f037b62a48e74bd2a6313263e76450` | 7382 |
+| `skills/ai-project-kit-factory-light/SKILL.md` | `15031702881ab5aa208ebbf41ebf69613a2353cd` | 2528 |
+| `skills/ai-project-kit-factory-light/references/01_CHARTER_AND_DISCOVERY.md` | `a376e11aef10a08424f948b84e9fc30b833cf878` | 5352 |
+| `skills/ai-project-kit-factory-light/references/02_PLATFORMS_GENERATION_AND_SETUP.md` | `28ffb9ac20469d22b570631de0467b90fa9b9ad7` | 7215 |
+| `skills/ai-project-kit-factory-light/references/03_GOVERNANCE_VALIDATION_AND_UPDATES.md` | `e026f468a69883e1135ab98a702acb18afb49dd9` | 6162 |
+| `templates/ROLE_SKILL_TEMPLATE.md` | `ec6f0f2b2626eed7d593dbe696cc3cef1e4cb899` | 1331 |
+
+## Validation / deployment limitations
+
+Read [VALIDATION_REPORT.md](VALIDATION_REPORT.md) for verified 3/8 knowledge parity, documentation links, ZIP artifact counts, remaining independent archive extraction, published tag/release, native Skill trigger/non-trigger and destination account tests. Generated ZIPs are not installed agents; a source branch is not a published Release.

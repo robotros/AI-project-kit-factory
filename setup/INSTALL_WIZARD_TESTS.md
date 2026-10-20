@@ -1,4 +1,4 @@
-# v1.4.1 setup wizard test cases (fictional input, no live changes)
+# v1.4.2 setup wizard test cases (fictional input, no live changes)
 
 | Case | Input | Expected result |
 |---|---|---|
@@ -12,7 +12,7 @@
 | W8 | User asks to publish without approving account changes | STOP before publishing and ask explicit authorization |
 | W9 | A project claimed installed from a ZIP alone | Mark GENERATED_ONLY, request actual readback or user confirmation |
 | W10 | Native Skill feature missing | Provide supported project/instructions fallback and NEEDS_VERIFICATION for unavailable tests |
-| W11 | Existing v1.3.1 Full → v1.4.1 Light | Back up Full first, replace the *entire* set with 3 Light refs, test fresh chat |
+| W11 | Existing v1.3.1 Full → v1.4.2 Light | Back up Full first, replace the *entire* set with 3 Light refs, test fresh chat |
 | W12 | Separate role asks to read private state in another project | Require manual/authenticated handoff, never assume shared memory |
 
 | W13 | New generated kit; no license specified | Ask owner to choose license with short choices; no default MIT from Factory repository |

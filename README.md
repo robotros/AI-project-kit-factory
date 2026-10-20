@@ -1,6 +1,6 @@
-# AI Project Kit Factory v1.4.1 — Light + Full | Projects, Agents, Skills
+# AI Project Kit Factory v1.4.2 — Light + Full | Projects, Agents, Skills
 
-**Release date:** 2026-10-20. **Status:** v1.4.1 is published on GitHub; this feature branch proposes unreleased source updates. Do not assume the existing v1.4.1 ZIP archives contain pending source changes or that installed AI agents were updated. The Factory requires **no local scripts, CLI, programming or paid APIs from its users**.
+**Release target:** v1.4.2. **Status:** source/installer release candidate; no v1.4.2 GitHub Release published yet. v1.4.1 remains published; installed AI agents or Skills are not updated automatically. No user CLI or paid API required.
 
 ## Choose your installation edition
 
@@ -29,8 +29,8 @@ Native Skills are packaged by **Factory edition**:
 
 | Factory Skill | Claude-specific wrapper | Root `SKILL.md` package |
 |---|---|---|
-| Light | [`Light Claude ZIP`](distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.1.zip) | [`Light Root ZIP`](distributions/AI_Project_Kit_Factory_Light_Root_Skill_v1.4.1.zip) |
-| Full | [`Full Claude ZIP`](distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.1.zip) | [`Full Root ZIP`](distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.1.zip) |
+| Light | [`Light Claude ZIP`](distributions/AI_Project_Kit_Factory_Light_Claude_Skill_v1.4.2.zip) | [`Light Root ZIP`](distributions/AI_Project_Kit_Factory_Light_Root_Skill_v1.4.2.zip) |
+| Full | [`Full Claude ZIP`](distributions/AI_Project_Kit_Factory_Full_Claude_Skill_v1.4.2.zip) | [`Full Root ZIP`](distributions/AI_Project_Kit_Factory_Full_Root_Skill_v1.4.2.zip) |
 
 Skills install separately and only when the actual platform/tenant supports them; when not, use a persistent Project/Gem/agent with skill procedures as normal knowledge. Skills do not grant connector access, share Project memory automatically, or count as additional 3rd/8th knowledge files. New **specialist** kits also receive a Skill suitability decision per role, with separate Skill packages only where useful. No bundled executable scripts.
 
