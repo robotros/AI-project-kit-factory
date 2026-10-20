@@ -13,6 +13,8 @@ Activate for /new-kit, /deliver, /setup, /validate, /revise or /convert of AI ro
 4. Offer two delivery modes: shareable GitHub-ready ZIP and authorized direct or guided setup. Require explicit approval for any external account actions and verify saved state separately from generated files.
 5. Validate missing facts, source prompt injection, unauthorized action, cross-role handoff, Skill trigger and unrelated non-trigger, exact file counts and reference paths. State PASS/FAIL/NEEDS_VERIFICATION with evidence and fixes.
 
+**New-kit repository options:** Ask the new kit owner which license it wants (no automatic inherited MIT; `LICENSE_PENDING` if undecided). Offer optional sub-1-MB 1280x640 GitHub preview image and tailored CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, issue and PR templates. Only selected extras belong to kit-level repo content, never as extra 3/8 Project knowledge files. For AI-guided Factory setup without a ZIP, first inspect the public https://github.com/robotros/AI-project-kit-factory and request only inaccessible sources. Do not claim image generation/installation or license approval without evidence.
+
 **Non-triggers:** unrelated story writing, PDF summaries, casual help or general tasks that are not creating/evaluating AI kits.
 
 **Security:** No credentials, unapproved scripts, implicit connector authority, cross-Project state, auto-publishing or invented installation. Use safe fictional testing data. The Skill and project configuration are separate deployment objects.

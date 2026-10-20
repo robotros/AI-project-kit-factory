@@ -5,7 +5,7 @@ This is a shareable, GitHub-ready release of the **AI Project Kit Factory**, not
 ## Fastest route — AI-guided setup
 
 1. Open [AI_SETUP_PROMPT.md](AI_SETUP_PROMPT.md). Copy the entire **SETUP WIZARD PROMPT** into ChatGPT, Claude, Gemini, Grok, Microsoft 365 Copilot, Copilot Studio or another supported AI. No placeholders to edit.
-2. Attach this ZIP, accessible repo link, or files the assistant requests. It must acknowledge which files it can actually read.
+2. **No ZIP?** Give the AI this public URL: [https://github.com/robotros/AI-project-kit-factory](https://github.com/robotros/AI-project-kit-factory). The AI should try to read the actual README, manifest, selected edition instructions and references first. A ZIP remains optional; request individually named files only when the public repo cannot be accessed.
 3. Answer the assistant's short questions about destination and whether you prefer **Factory Light (3 files)** or **Factory Full (8 files)**. For limited accounts the assistant should recommend Light but confirm. Choose a persistent Project/agent or optional native Skill depending on the real UI.
 4. Approve any change to an account object. Follow one UI step at a time; the assistant must validate saved state and tests in a fresh chat.
 

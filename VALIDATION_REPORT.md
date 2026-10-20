@@ -1,29 +1,24 @@
-# AI Project Kit Factory v1.4.1 — Validation Report
+# Unreleased Factory Community and License Source Validation
 
-**Date:** 2026-10-20  
-**Scope:** GitHub branch `release/v1.4.1-mit`, audited against source commit `72a0c3e29bd2727382a9d75af274a4fc087990fa` before this report/manifest commit.  
-**Status:** STATIC PASS; account-level installation and fresh-session behavior NEEDS_VERIFICATION.
+**Scope:** `feature/kit-license-community-options` source revision, snapshot `8b424294dcff1f3e96a21563a83e932b56304a54`.  
+**Date:** 2026-10-20 · **Disposition:** STATIC SOURCE PASS, **RELEASE NOT READY**.  
+**Evidence:** GitHub repository tree/readback, not an installed AI Project or newly rebuilt installer.
 
-## Source and distribution checks
+| ID | Check | Verdict | Evidence and remediation |
+|---|---|---|---|
+| F1 | Factory Full 8 knowledge references | PASS | All 8 exist; root copies, portable/Claude Skill copies and Microsoft transport copies match canonical Git blobs |
+| F2 | Factory Light 3 knowledge references | PASS | All 3 exist; Skill reference and Microsoft transport copies match canonical Git blobs |
+| F3 | New kit license choice | PASS (static) | Both Factory instruction and knowledge editions explicitly ask the owner; proprietary/undecided supported; Factory MIT not silently inherited |
+| F4 | Optional preview graphic | PASS (offer contract) | 1280×640 image with actual file size under 1 MB offered; no image generated/installed |
+| F5 | Optional community materials | PASS (source) | Code of conduct, contributing, security, issue and PR template files exist on feature branch; no fictional security mailbox |
+| F6 | AI installer without ZIP | PASS (static) | Guided prompt and setup docs use the public repository first; live no-ZIP access test NEEDS_VERIFICATION |
+| F7 | Root/Skill/transport source synchronization | PASS | Git blob ID parity on required 3/8 policy references |
+| F8 | GitHub community-profile activation | NEEDS_VERIFICATION | Feature branch files must be merged to default branch; private vulnerability reporting eligibility not verified |
+| F9 | Package / source parity | **FAIL — HIGH RELEASE BLOCKER** | Six prior v1.4.1 ZIPs are unchanged and do not contain these feature-branch changes; rebuild, version, and validate all six distribution packages |
+| F10 | New complete release SHA-256 manifest | NEEDS_VERIFICATION | Branch inventory uses Git blob SHA-1 object identifiers; regenerate exact SHA-256 for finalized binary/source release files |
+| F11 | Fresh-chat license decision, issue templates and absent ZIP | NEEDS_VERIFICATION | Run destination tests after installing updated Factory, including rejected automatic MIT and unavailable repo retrieval |
+| F12 | External changes/permissions | PASS (scope) | Only proposal branch updated; no merge, publication, image-setting change or AI-account modification claimed |
 
-| Check | Status | Evidence |
-|---|---|---|
-| Exact tree file count | PASS | 112 tracked files including this report and `KIT_MANIFEST.md` |
-| Factory Light / Full source editions | PASS | Exactly 3 canonical Light and 8 canonical Full knowledge Markdown files |
-| Knowledge copy parity | PASS | Full references, Claude/portable Skill references, Microsoft `.txt` transport copies and Light aliases match their canonical Git blobs |
-| Current downloadable distributions | PASS | Exactly six `v1.4.1` ZIP files; no old `v1.4` ZIPs remain |
-| Distribution integrity | PASS | Six checked Git blob IDs match independently prepared v1.4.1 archives, with SHA-256 digests recorded in the manifest |
-| License | PASS | Root MIT license with Copyright (c) 2026 robotros |
-| Documentation and installation routing | PASS | README, START_HERE, release notes, Skill routes and setup guides revised to v1.4.1; history retained in CHANGELOG |
-| SHA-256 integrity manifest | PASS | 111 path-specific SHA-256 entries for all tracked files except the manifest itself; text digests computed from GitHub content and ZIP digests from byte-matched release archives |
-| Public GitHub source deployment | PASS | Branch commits verified by GitHub readback; draft PR #3 exists |
-| GitHub merge, tag and published v1.4.1 release | NEEDS_VERIFICATION | Not performed |
-| Provider project / agent / Skill installation | NEEDS_VERIFICATION | Requires platform-specific account setup and fresh-chat trigger/non-trigger tests |
+**Severity:** F9 blocks release and should be remediated before merge; privacy/approval regressions are Critical, missing required output High, incomplete community UI checks Medium.
 
-## Interpretation and limitations
-
-Static file checks are not behavioral testing or a security audit. Project knowledge, Skills, agent publication, connectors and cross-agent handoffs require separate installation evidence and human approval. This manifest describes the **GitHub branch** and may differ from a separately distributed prerelease ZIP's documentation bytes; installation archives are independently versioned and hashed. Do not claim branch publication constitutes a GitHub Release.
-
-## Required release gate
-
-Review [Pull Request #3](https://github.com/robotros/AI-project-kit-factory/pull/3), verify the linked files, approve merge, then create and verify the v1.4.1 GitHub release separately. Installation receipts remain outstanding.
+This result is **TOOL_VERIFIED GitHub source** plus **GENERATED_ONLY proposed artifacts**. Earlier USER_CONFIRMED tests of v1.4.1 do not establish OPERATIONALLY_TESTED status for this pending update. The existing published v1.4.1 artifacts remain available and unchanged.

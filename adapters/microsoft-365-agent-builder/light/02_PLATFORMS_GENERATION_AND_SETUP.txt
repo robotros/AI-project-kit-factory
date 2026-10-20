@@ -43,3 +43,9 @@ For each role record `skill_candidate: YES/NO`, repeatable task, trigger, what i
 ## Destination setup and delivery file names
 
 Use actual `README.md`, `AI_SETUP_PROMPT.md`, `KIT_MANIFEST.md`, `setup/<PLATFORM>_INSTALLATION.md`, `VALIDATION_REPORT.md` and a package-specific `START_HERE.md`. If no file-writing capability, output named contents as text. Never demand Python, terminal commands, local scripts, developer APIs or credential disclosure.
+
+## New-kit GitHub extras and repo-first setup
+
+For user-approved kits produce only selected extras: a correct approved `LICENSE` (or `LICENSE_PENDING` with no public release), optional 1280x640 PNG/JPG/GIF preview with actual byte size <1 MB, and optional `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, GitHub issue templates in `.github/ISSUE_TEMPLATE/` and `.github/PULL_REQUEST_TEMPLATE.md`. Validate provenance, links and metadata; no invented contact channels. These are kit-level files outside the strict 3/8 knowledge count. A preview image is not installed just by saving it to repository files.
+
+For conversational AI setup **without a ZIP**, first inspect the user's public repository URL; Factory default: `https://github.com/robotros/AI-project-kit-factory`. Read only what is actually accessible; if unavailable ask for the exact missing README/manifest/edition source files. Never require a ZIP where the public repository is readable, and never equate public read access with account or GitHub write permission.

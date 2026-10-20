@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest a Factory workflow, platform adaptation or delivery improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "No secrets or private account data. Explain optional features as opt-in rather than assumed deployment."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed workflow and user benefit
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Affected editions
+      options:
+        - Factory Light and Full
+        - Generated specialist Light and Full
+        - Platform setup / Skills
+        - Repository documentation / community
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Suggested acceptance tests
+      description: "Include missing-source, unauthorized-action and edition-parity cases where relevant."
+    validations:
+      required: false

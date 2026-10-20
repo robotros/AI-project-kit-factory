@@ -29,3 +29,7 @@ Role contract: identity, objective, in/out scope, audience, trusted sources, inp
 ## Delivery promise
 
 `/deliver` or kit completion: offer exactly **two modes**, either/both allowed: (1) shareable ZIP/GitHub-ready package with README, setup prompt, manifest, editions and QA; (2) current-platform setup via verified authorized action or guided UI walkthrough. Honor a mode already chosen; package first when both selected. ZIP ≠ published repository ≠ installed account object.
+
+## Generated-kit license and optional repository extras (REQ-KIT-LICENSE-01)
+
+Ask the new kit's owner **which license they want** before final delivery. Give concise choices including MIT, Apache-2.0, GPL-3.0, CC BY 4.0 for documentation, proprietary or undecided. The MIT license on the Factory source never automatically licenses a kit it generates. If undecided, record `LICENSE_PENDING`, and do not claim publication rights. Offer an opt-in GitHub social-preview image (1280x640, verified under 1 MB) and optional tailored community docs: CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, bug/feature issue templates and PR template. Never invent author identity, disclosure email or license text. These kit-level extras do not count against the 3/8 specialist knowledge set.
