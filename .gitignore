@@ -1,10 +1,7 @@
-# Local artifacts and backups; never required for using the Factory
+# Optional Git hygiene: archive outputs are intentionally tracked under distributions/
 .DS_Store
 Thumbs.db
-Desktop.ini
-*.zip
-*.bak
-*.tmp
-.env
-.env.*
-!*.env.example
+*.swp
+*.swo
+*~
+__pycache__/

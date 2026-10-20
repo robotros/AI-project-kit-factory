@@ -1,106 +1,59 @@
-# AI Project Kit Factory
+# AI Project Kit Factory v1.3.1 — Projects + portable native Skills
 
-**AI-only · ChatGPT / Claude / Gemini / Grok · Single or multi-project · Light + Full · Share or install**
+**Release:** 2026-10-20 (documentation/onboarding patch v1.3.1; Factory core and native Skill ZIPs remain v1.3). **Status:** Self-contained Factory configuration **generated and statically validated**; no third-party accounts installed, Skills enabled, agents published or GitHub repositories published. This is the **Factory itself**, not a fabricated example specialist kit.
 
-Build reusable AI project kits using a guided conversation. The Factory designs specialist roles and handoffs, writes platform-aware instructions and Markdown knowledge files, optimizes task prompts, and validates outputs. **No Python, scripts, APIs, terminal, forms or paid automation services are required.** This repository contains the Factory and reusable templates, **not a sample destination kit**.
+The Factory supports **two complementary tracks** for ChatGPT, Claude, Gemini, Grok, Microsoft 365 Copilot and Copilot Studio: persistent **Project/agent** instructions+knowledge and optional reusable **Skills**, packaged natively where actually supported. A Skill is a repeatable procedure, not a shared database, cross-agent transfer, connector or unapproved action.
 
-## Quickest start: share one GitHub link with an AI
+## Start here: manual or AI-guided setup
 
-**Factory repository:** https://github.com/robotros/AI-project-kit-factory
+**New users:** [START_HERE.md](START_HERE.md) gives two setup paths. For a guided conversation, open [AI_SETUP_PROMPT.md](AI_SETUP_PROMPT.md), copy its ready-to-paste **SETUP WIZARD PROMPT** (no bracket filling), and send it into your chosen AI assistant. The assistant must ask the platform if it cannot reliably identify it, guide installation one UI action at a time, and validate real saved objects after setup.
 
-Copy this into ChatGPT, Claude, Gemini or Grok:
+**Manual guides:** [ChatGPT](setup/CHATGPT_INSTALLATION.md) · [Claude](setup/CLAUDE_INSTALLATION.md) · [Gemini](setup/GEMINI_INSTALLATION.md) · [Grok](setup/GROK_INSTALLATION.md) · [Microsoft 365 Copilot / Copilot Studio](setup/MICROSOFT_INSTALLATION.md).
 
-```text
-Please help me install the AI Project Kit Factory from https://github.com/robotros/AI-project-kit-factory. Read START_HERE.md, README.md and either the Light or Full Factory instruction and knowledge files. If you cannot read the repository files, ask me to upload the ZIP/files, and do not guess. Check whether you can set up the Factory directly in this AI platform; request my permission before making account changes, otherwise guide me through its interface. Then help design a single- or multi-project kit, generating Light and Full editions. At delivery offer (1) a GitHub-ready ZIP with its own README and AI_SETUP_PROMPT.md, or (2) install/walk me through setup of the new project(s) here. Allow both. Validate the kit and distinguish generated, published and actually installed status.
-```
+**GitHub:** [Browser-only publishing and verification](setup/GITHUB_PUBLISHING.md). The release archive is GitHub-ready but **not a published repository**, and a LICENSE has not been chosen. Do not assert open-source licensing without owner approval.
 
-**More detailed copy-ready prompt:** [SHARE_WITH_AI.md](SHARE_WITH_AI.md)  
-**AI-first bootstrap instructions:** [START_HERE.md](START_HERE.md)  
-**Manual quick start:** [QUICK_START.md](QUICK_START.md)
+## Recommended deliverables
 
-> Some AI products cannot read public GitHub repositories or change project settings. For those, download the ZIP and attach the necessary `.txt` and `.md` files, or paste their contents; use the guided setup path. A GitHub link is a reference, **not** an automatic install action.
+- `01_FACTORY_CHARTER.md` through `08_GOVERNANCE_AND_UPDATES.md`: **eight canonical Factory knowledge files**. When the Factory itself is installed, add all eight to the destination's Project/agent (supported transport as needed).
+- `adapters/chatgpt-project/FACTORY_PROJECT_INSTRUCTIONS_CHATGPT.txt` for ChatGPT Project instructions, `adapters/claude-project/FACTORY_PROJECT_INSTRUCTIONS_CLAUDE.txt` for Claude Projects and `setup/FACTORY_AGENT_INSTRUCTIONS_MICROSOFT.txt` for M365/Studio. Other platforms follow `setup/CROSS_PLATFORM_INSTALLATION.md` with compatible instruction text.
+- `adapters/microsoft-365-agent-builder/`: eight `.txt` copies matching canonical `.md` byte-for-byte for embedded Agent Builder knowledge.
+- `adapters/portable-skill/ai-project-kit-factory/`: `SKILL.md` and `references/` source for the Factory's reusable Skill.
+- `distributions/AI_Project_Kit_Factory_Claude_Skill_v1.3.zip`: Skill **folder-wrapped ZIP** for Claude.
+- `distributions/AI_Project_Kit_Factory_Root_Skill_v1.3.zip`: Skill **archive-root `SKILL.md` ZIP** for Gemini Skills, eligible Agent Builder Frontier and Copilot Studio GitHub Copilot harness. Eligibility, UI import and activation must still be verified.
+- `docs/CAPABILITY_MATRIX.md`, `docs/SKILL_PACKAGING_AND_ARCHITECTURE.md`, `docs/OFFICIAL_SOURCES.md` record exact eligibility, portable architecture and reference evidence.
+- `AI_SETUP_PROMPT.md`, `setup/CROSS_PLATFORM_INSTALLATION.md`, `setup/CROSS_PLATFORM_TEST_PROMPTS.md`, `KIT_MANIFEST.md`, `VALIDATION_REPORT.md`, `CHANGELOG.md`, plus existing platform guides/checklists.
 
-## When a new kit is generated, choose one of two paths
+## For Factory-generated specialist kits
 
-| | **1 — Shareable Package / ZIP** | **2 — Install in this AI tool** |
+**Every role receives BOTH editions:** Light has separate `PROJECT_INSTRUCTIONS.txt` (<=7,500 chars) + **exactly three** canonical `.md` project references. Full has separate instructions (<=7,500 chars) + **exactly eight** canonical `.md` project references. The Factory additionally makes a **per-role, per-edition Skill suitability decision**: a focused native Skill package if appropriate and supported; a portable Skill/knowledge fallback if features are unavailable; or an explicit `NOT_APPROPRIATE`. Skills do **not** count as fourth/ninth Project knowledge files. Factory Skill distributions in this release are for running the Factory, not examples of generated specialist kits.
+
+## Select a supported deployment
+
+| Product | Project/agent route | Skill route |
 |---|---|---|
-| Goal | Distribute a standalone kit via ZIP or GitHub | Configure project(s)/agent(s) where you're chatting |
-| Deliverables | README, AI setup prompt, manifest, both editions, optimized prompts, installation and QA | Approved direct setup where supported, otherwise guided clicks with checkpoints |
-| Github account needed? | Not for ZIP; optional for publishing/sharing | No |
-| Verification | File integrity/content checks; publication status separate | File and UI/account confirmation plus fresh-context tests |
-| Multi-project | All specialist roles and handoff contract packaged | Roles installed/tested one at a time |
+| ChatGPT | Project with instructions + sources | Eligible Business/Enterprise/Healthcare/Edu workspaces only, via Plugins > Skills; personal plans Project fallback |
+| Claude | Project instructions + 3/8 knowledge | Folder-wrapped Claude ZIP via Customize > Skills |
+| Gemini | Gem fallback where required | Root-SKILL ZIP (eligible personal accounts; Workspace transition later) |
+| Grok | Projects or approved Bots | Chat/file-created Skill; portable SKILL.md provided (import shape UI-verified) |
+| M365 Copilot | Agent Builder + `.txt` references | Frontier preview only; root-SKILL ZIP, up to 8/agent per docs |
+| Copilot Studio | Agent with verified harness + `.md` knowledge | GitHub Copilot-harness agents: root-SKILL ZIP/Markdown; standard harness fallback |
 
-**You can request both** (`/deliver both`). When finished generating a kit, the Factory presents these two options unless you already made a selection. [Delivery modes and safety rules](docs/DELIVERY_MODES.md).
+Refer to [capabilities](docs/CAPABILITY_MATRIX.md) and [installation router](setup/CROSS_PLATFORM_INSTALLATION.md) before claiming support in a particular account.
 
-### Every shareable kit contains
+## Start here
 
-```text
-<new-kit>/
-├── README.md                      # GitHub landing page / human instructions
-├── AI_SETUP_PROMPT.md             # Paste into any supported AI, with live-link/upload fallback
-├── KIT_MANIFEST.md                # Roles, editions and exact file inventory
-├── light/<role>/                  # Separate instructions + 3 Markdown uploads per role
-├── full/<role>/                   # Separate instructions + 8 Markdown uploads per role
-├── architecture/WORKFLOW_MAP.md   # If multiple roles need handoffs
-├── prompts/START_AND_TASK_PROMPTS.md
-├── setup/PLATFORM_INSTALLATION.md
-├── setup/INSTALL_CHECKLIST.md
-├── setup/DEPLOYMENT_RECEIPT.md
-└── qa/VALIDATION_REPORT.md
-```
+1. Read [START_HERE.md](START_HERE.md) and choose **AI-guided** or **manual** installation.
+2. For AI-guided, paste the complete prompt from [AI_SETUP_PROMPT.md](AI_SETUP_PROMPT.md). The AI starts by identifying/asking your platform, then asks only the next necessary question.
+3. For manual installation, select the appropriate platform guide. In either mode, use the [cross-platform router](setup/CROSS_PLATFORM_INSTALLATION.md), [Skill packaging rules](docs/SKILL_PACKAGING_AND_ARCHITECTURE.md), and [tests](setup/CROSS_PLATFORM_TEST_PROMPTS.md).
+4. Inspect [manifest](KIT_MANIFEST.md), [validation report](VALIDATION_REPORT.md), and [deployment receipt](setup/DEPLOYMENT_RECEIPT.md); complete live tests before claiming installation.
 
-The generated kit README is modeled on this repository's structure. It links to its own setup prompt and explains both editions. **Its GitHub URL is included as a live link only if it was actually published and verified**; an unpublished ZIP has a visible URL placeholder and can still be installed from uploaded files. See the [generated kit output contract](docs/OUTPUT_CONTRACT.md) and [blank README template](templates/README_GENERATED_KIT.template.md).
+## Two delivery modes (both may be selected)
 
-## Factory editions
+1. **Shareable ZIP/GitHub-ready package:** this entire versioned folder/ZIP, including the two stand-alone Skill ZIPs. It is **not a published repo**. Published-kit URL: **[NOT PUBLISHED — INSERT VERIFIED URL AFTER UPLOAD]**; fallback is to share the release ZIP.
+2. **Install/guided setup:** use real authenticated authorized platform actions only with explicit approval and readback; otherwise walk through current UI one object at a time and capture user confirmation. The Factory has not connected to or altered any third-party AI account.
 
-| | Light Factory | Full Factory |
-|---|---|---|
-| Knowledge uploads | **3** Markdown files | **8** Markdown files |
-| Operating instructions | [Light instructions](light/PROJECT_INSTRUCTIONS.txt) | [Full instructions](full/PROJECT_INSTRUCTIONS.txt) |
-| Install guide | [Light install](light/INSTALL.md) | [Full install](full/INSTALL.md) |
-| Best for | File-constrained/Free plans | More detailed evaluation and governance |
-| Can generate both destination editions? | Yes | Yes |
+No local Python, CLI, coding or paid API is required of the installing user. Never upload secrets. Prompt-package QA is not a security audit. Product availability and tenant restrictions can change; verify before use.
 
-**Factory edition** controls how many knowledge files you upload to run the Factory. **Generated edition** controls how many files each new role uses. Both Factory editions **generate** both Light (instructions + 3 `.md` uploads) and Full (instructions + 8 `.md` uploads). **Installation** is where the user chooses which generated edition to install: Light, Full, or both when the destination supports it. Choosing one edition to install does not omit the other from the kit. These are internal design budgets, not claims about all vendors' account limits. The instruction target is <=7,500 characters.
+## Repository status and license
 
-## Supported workflows
-
-- **Single-project:** One persistent AI workspace/assistant with clear objective, source rules, reusable prompts and tests.
-- **Multi-project:** Specialists with independent instructions, approver checkpoints, explicit handoff packets and separated permissions. They do **not** automatically share memory or files.
-- **Platform-specific adaptation:** ChatGPT Projects, Claude Projects, Gemini Skills if available (warn that some Gem functionality, including Deep Research and Canvas, is not currently supported by Skills) or a Gem fallback, Grok Projects when the live grok.com account shows them, or Grok Bot Skills if available, or an honestly labeled chat fallback. Do not claim a standard Grok conversation can save a Skill unless that interface and account type support it. Check actual product availability before installation.
-- **AI-first setup:** Authorized direct configuration *only* where real authenticated write tools support it and user approval was given; otherwise practical UI walkthroughs one role at a time.
-- **Acceptance tests:** Artifact checks, simulated behavior checks and actual installed-object tests reported separately.
-
-## Commands (natural-language shortcuts, not software programs)
-
-| Request | Meaning |
-|---|---|
-| `/new-kit` | Brief requirements discovery, architecture and Light + Full generation |
-| `/deliver package` | Shareable ZIP/GitHub-ready kit; complete files if ZIP creation unavailable |
-| `/deliver install` | Direct authorized setup or current-platform guided installation |
-| `/deliver both` | Package first, then setup |
-| `/validate` | Review files, prompts, safety, handoffs, and independently observed deployment |
-| `/revise` | Update affected editions, roles, prompts and tests |
-| `/convert` | Adapt kit to another platform without inventing features |
-
-## Install the Factory yourself
-
-1. Pick [Light](light/INSTALL.md) or [Full](full/INSTALL.md).
-2. In a supported AI persistent environment, paste the selected `PROJECT_INSTRUCTIONS.txt` into its instruction field.
-3. Attach the edition's exact numbered Markdown knowledge files (Light 3; Full 8).
-4. Paste [START_HERE.md](START_HERE.md) and describe what kit you want to create.
-5. Run `/validate`. Choose package or install when the output is ready. [Cross-platform install guide](docs/PLATFORM_GUIDE.md).
-
-## Reliability and privacy
-
-Packaging a ZIP, publishing to GitHub and installing a persistent agent are three separate things. The Factory should never claim any occurred without evidence. Model-simulated checks cannot establish a real account installation or provide a security audit. Never include secrets or private data in a public repository; external account changes require explicit approval.
-
-## Repository map
-
-`light/` and `full/` hold installable Factory editions. `prompts/` holds reusable copy/paste prompts. `templates/` contains blank generated-kit README, AI setup prompt, role and handoff schemas. `docs/` contains [delivery modes](docs/DELIVERY_MODES.md), [platform mappings](docs/PLATFORM_GUIDE.md), [output contract](docs/OUTPUT_CONTRACT.md), [security rules](docs/SECURITY_AND_GOVERNANCE.md) and [GitHub publishing guidance](docs/GITHUB_PUBLISHING.md). [FILE_MANIFEST.md](FILE_MANIFEST.md) lists the installable knowledge files. [CONTRIBUTING.md](CONTRIBUTING.md) explains repository contributions.
-
-## Publish and share
-
-This repo is already hosted at **https://github.com/robotros/AI-project-kit-factory**. New kit packages will have **their own** repository URLs only after being published. When sharing the Factory itself, use [SHARE_WITH_AI.md](SHARE_WITH_AI.md); when sharing a generated kit, use that kit's `AI_SETUP_PROMPT.md` and its actual URL or ZIP. [Publishing checklist](docs/GITHUB_PUBLISHING.md).
-
-No license is assigned by this package; choose appropriate distribution terms before licensing others' use. Contributions and corrections are welcome via [CONTRIBUTING.md](CONTRIBUTING.md).
+This release can be uploaded to a GitHub repository after owner review. No GitHub URL has been verified. No `LICENSE` is included because redistribution terms must be selected by the repository owner. Skill ZIPs and full release ZIP are not interchangeable. For guided-interview QA see [wizard test scenarios](setup/INSTALL_WIZARD_TESTS.md).
