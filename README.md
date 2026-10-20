@@ -43,7 +43,7 @@ For **every requested role** and from **either Factory installation edition**:
 
 ## Share / GitHub publication
 
-The ZIP is GitHub-ready, **not already published**. Extract repository contents, choose a license if public reuse rights are desired, and publish via GitHub's UI only with owner approval. See [browser-only instructions](setup/GITHUB_PUBLISHING.md). Publication and any actual account/agent install are independently verified. Never invent a GitHub URL.
+[GitHub Repo](https://github.com/robotros/AI-project-kit-factory)
 
 ## Testing and integrity
 
